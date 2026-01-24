@@ -1,0 +1,81 @@
+{
+  "company": "Meta Platforms, Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2017,
+      "boundary": "company-wide operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Operational emissions reduction goal from a 2017 baseline for Scopes 1 and 2.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Reduce operational GHG 75% by 2020 vs 2017",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Scopes 1 and 2 operational net zero achieved in 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Net zero operations by 2020",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Covers Scopes 1, 2, and 3 with neutralization of residual emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Net zero across value chain by 2030",
+      "unit": null
+    }
+  ]
+}

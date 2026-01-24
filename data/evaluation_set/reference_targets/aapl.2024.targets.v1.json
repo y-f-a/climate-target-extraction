@@ -1,0 +1,85 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apple-Supply-Chain-2025-Progress-Report.pdf#p56",
+        "Apple_Environmental_Progress_Report_2025.pdf#p11"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": null
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": 61.7,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apple-Supply-Chain-2025-Progress-Report.pdf#p56",
+        "Apple_Environmental_Progress_Report_2025.pdf#p11"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": null
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": 90.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        null
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": null,
+      "unit": null
+    }
+  ]
+}

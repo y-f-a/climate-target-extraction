@@ -1,0 +1,71 @@
+{
+  "company": "Tesla",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Full product lifecycle from mining and production through use and endof-life recycling",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Plan to achieve net-zero emissions as soon as possible.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2023-tesla-impact-report-highlights.pdf#p9"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": null,
+      "title": "Net-zero GHG emissions goal",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Operational electricity load",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Well before achieving the net-zero emissions goal.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2023-tesla-impact-report-highlights.pdf#p9"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Operational electricity to 100% renewables",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Supercharger electricity load",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Continue matching annually with renewable electricity.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2023-tesla-impact-report-highlights.pdf#p9"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Match Supercharger electricity load with renewables annually",
+      "unit": null
+    }
+  ]
+}

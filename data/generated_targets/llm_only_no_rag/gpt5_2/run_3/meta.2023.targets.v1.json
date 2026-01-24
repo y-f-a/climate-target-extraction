@@ -1,0 +1,56 @@
+{
+  "company": "Meta Platforms, Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Net zero greenhouse gas emissions across value chain by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Net zero emissions for global operations by 2020",
+      "unit": null
+    }
+  ]
+}

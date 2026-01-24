@@ -1,0 +1,56 @@
+{
+  "company": "Meta Platforms, Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Company-wide value-chain net zero by 2030 covering Scopes 1, 2 and 3; residual emissions will be neutralized.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Net zero emissions across value chain by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "own operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Achieved in 2020 and maintained via 100% renewable energy procurement with credits for residual emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Net zero emissions in own operations by 2020",
+      "unit": null
+    }
+  ]
+}

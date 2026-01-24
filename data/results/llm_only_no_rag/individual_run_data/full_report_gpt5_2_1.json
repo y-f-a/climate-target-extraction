@@ -1,0 +1,259 @@
+{
+  "aggregate": {
+    "field_acc_macro": {
+      "ambition": 0.6666666666666666,
+      "base_year": 0.5,
+      "horizon": 0.8333333333333334,
+      "metric_type": 1.0,
+      "reduction_pct": 0.5555555555555556,
+      "scopes_covered": 0.7777777777777778,
+      "target_value": 0.8888888888888888,
+      "target_year": 0.8333333333333334,
+      "unit": 0.5555555555555556
+    },
+    "hallucination_rate": 0.0,
+    "micro_f1": 0.6666666666666666,
+    "micro_precision": 1.0,
+    "micro_recall": 0.5
+  },
+  "per_doc": [
+    {
+      "doc": "nvda.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 0
+    },
+    {
+      "doc": "nvda.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 0
+    },
+    {
+      "doc": "msft.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.0,
+        "scopes_covered": 0.5,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "msft.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 0.5,
+        "unit": 0.0
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "aapl.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 0.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 0.0,
+        "target_year": 1.0,
+        "unit": 0.0
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "aapl.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 0.0,
+        "base_year": 0.5,
+        "horizon": 0.5,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.5
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "googl.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 0.5,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.5
+      },
+      "fn": 0,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "googl.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 0.0,
+        "base_year": 0.0,
+        "horizon": 0.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 0,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "amzn.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 0
+    },
+    {
+      "doc": "amzn.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 0,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "meta.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.5,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 0.5,
+        "target_value": 1.0,
+        "target_year": 0.5,
+        "unit": 0.5
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "meta.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.5,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 0.5,
+        "target_value": 1.0,
+        "target_year": 0.5,
+        "unit": 0.5
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "tsla.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 0
+    },
+    {
+      "doc": "tsla.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 0,
+      "fp": 0,
+      "tp": 0
+    }
+  ]
+}

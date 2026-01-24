@@ -1,0 +1,31 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "Company-wide value chain (operations, supply chain, and product lifecycle)",
+      "coverage_pct": 100.0,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Residual emissions to be neutralized with carbon removal/offsets.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon neutral across value chain by 2030 (75% reduction vs 2015)",
+      "unit": "%"
+    }
+  ]
+}

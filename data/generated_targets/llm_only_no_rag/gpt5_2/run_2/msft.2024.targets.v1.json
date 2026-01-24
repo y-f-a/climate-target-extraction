@@ -1,0 +1,102 @@
+{
+  "company": "Microsoft Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Net removals to exceed total emissions by 2030 across Scopes 1–3.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030 (Scopes 1–3)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Absolute Scope 3 reduction target; baseline year not specified here.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reduce Scope 3 emissions 50% by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Aim to reach near-zero operational and electricity-related emissions by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reduce Scope 1 and 2 emissions to near zero by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": "Removal of historical emissions since 1975; originally described for direct and electricity-related emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove all historical emissions since 1975 by 2050",
+      "unit": null
+    }
+  ]
+}

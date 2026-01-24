@@ -1,0 +1,77 @@
+{
+  "company": "Meta",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2021,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "From a 2021 baseline.",
+      "reduction_pct": 42.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        null
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2031,
+      "title": "Reduce Scope 1 and 2 emissions by 42% by 2031 from a 2021 baseline",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2021,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Not to exceed 2021 Scope 3 emissions by the end of 2031.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "Meta-2023-Path-to-Net-Zero.pdf#p3",
+        "Meta-2023-Path-to-Net-Zero.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": 5772583.0,
+      "target_year": 2031,
+      "title": "Not exceed 2021 Scope 3 emissions by end of 2031",
+      "unit": "tCO2e"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "across our value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Meta-2024-Sustainability-Report.pdf#p20"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Achieve net zero emissions across our value chain in 2030",
+      "unit": null
+    }
+  ]
+}

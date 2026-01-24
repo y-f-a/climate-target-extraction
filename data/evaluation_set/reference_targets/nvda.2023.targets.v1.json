@@ -1,0 +1,105 @@
+{
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Operations and data centers",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "We commit to procure renewable energy from sources that create additionality when available and commercially reasonable.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "Scope 1 and 2: 100% renewable electricity by FY25",
+      "unit": null
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "we aim to reduce our Scope 1 and 2 emissions in line with a 1.5 degrees Celsius global temperature rise",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": null,
+      "title": "Scope 1 and 2 reductions",
+      "unit": null
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "100% emissions reduction of our scope 2 market-based emissions by the end of our fiscal year ending January 26, 2025",
+      "reduction_pct": 100,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p38"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "Scope 2 (market-based)",
+      "unit": null
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Manufacturing suppliers comprising at least 67% of Scope 3 Category 1 (Purchased Goods and Services) emissions",
+      "coverage_pct": 67.0,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "With the goal of effecting supplier adoption of science-based targets aligned with limiting temperature rise to 1.5 degrees Celsius.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1
+      ],
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2026,
+      "title": "Scope 3: Engage suppliers covering at least 67% of Category 1 by FY26",
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "entire value chain (Scopes 1–3)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Plan to cut absolute emissions 75% vs 2015 and neutralize residuals with carbon removal.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "75% absolute emissions reduction by 2030 vs 2015 (value chain)",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "entire value chain (Scopes 1–3)",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Carbon neutrality to be achieved via emissions reductions and carbon removal for residuals across supply chain and product lifecycle.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon neutral across value chain by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "corporate operations (facilities, offices, data centers)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Operations carbon neutrality maintained with 100% renewable electricity and offsets/removals for residual emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Carbon neutral corporate operations since 2020",
+      "unit": null
+    }
+  ]
+}

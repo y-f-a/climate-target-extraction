@@ -1,0 +1,102 @@
+{
+  "company": "Microsoft Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2017,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Base year FY2017.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Near-term S1+2 absolute 50% by 2030 (2017 base)",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2017,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Base year FY2017.",
+      "reduction_pct": 30.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Near-term S3 absolute 30% by 2030 (2017 base)",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Net negative across Scopes 1–3 via emission reductions and carbon removals.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030 (company-wide)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": "Commitment to remove all historical emissions since founding.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove all historical emissions by 2050",
+      "unit": null
+    }
+  ]
+}

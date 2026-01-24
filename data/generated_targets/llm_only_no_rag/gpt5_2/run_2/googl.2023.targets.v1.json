@@ -1,0 +1,31 @@
+{
+  "company": "Alphabet Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide (operations and value chain)",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Stated as achieving net-zero across operations and value chain by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Net-zero emissions across operations and value chain by 2030",
+      "unit": null
+    }
+  ]
+}

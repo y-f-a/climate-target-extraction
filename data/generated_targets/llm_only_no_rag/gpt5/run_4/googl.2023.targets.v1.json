@@ -1,0 +1,53 @@
+{
+  "company": "Alphabet Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global Google data centers and office campuses",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Electricity procurement goal to operate on 24/7 carbon-free energy; affects Scope 2 emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "24/7 carbon-free energy by 2030 for all data centers and campuses",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Company-wide electricity use",
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": "Annual matching of electricity consumption with renewable energy purchases; ongoing practice since 2017.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Maintain 100% annual renewable electricity matching",
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "company": "Alphabet Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": "Company-wide operations and value chain",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Baseline year 2019; applies across Scopes 1–3.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reduce absolute Scope 1–3 emissions 50% by 2030 vs 2019",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Company-level net-zero commitment.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Achieve net-zero emissions by 2030",
+      "unit": null
+    }
+  ]
+}

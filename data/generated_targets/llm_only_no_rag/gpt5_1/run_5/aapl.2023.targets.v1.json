@@ -1,0 +1,57 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "entire value chain (operations, supply chain, product use/end-of-life)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Absolute reduction across Scopes 1-3 under the Apple 2030 program.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Apple 2030: 75% absolute emissions reduction vs 2015",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "entire value chain (operations, supply chain, product use/end-of-life)",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Carbon neutral by 2030 with residual emissions balanced via carbon removals.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Apple 2030: Company-wide net-zero across value chain by 2030",
+      "unit": null
+    }
+  ]
+}

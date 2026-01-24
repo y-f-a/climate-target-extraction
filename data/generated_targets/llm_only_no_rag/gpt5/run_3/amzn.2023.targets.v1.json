@@ -1,0 +1,27 @@
+{
+  "company": "Amazon.com, Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Net-zero by 2040 under The Climate Pledge; residual emissions may be offset.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2040,
+      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "company": "Google",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": "Ambition-based boundary excluding certain scope 3 emissions activities that are peripheral to our core operations or where our ability to influence emissions reductions is limited.",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Scope 2 is market-based and the boundary is described as “ambition-based”.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "google-2025-environmental-report.pdf#p80",
+        "google-2025-environmental-report.pdf#p118"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon reduction moonshot",
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Company-wide net-zero pledge; not SBTi-validated.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Net-zero greenhouse gas emissions",
+      "unit": null
+    }
+  ]
+}

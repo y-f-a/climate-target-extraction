@@ -1,0 +1,107 @@
+{
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Offices and data centers under operational control",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Aim to reduce Scope 1 and 2 emissions by achieving and maintaining 100% renewable electricity by end of FY25.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "FY2024-NVIDIA-Corporate-Sustainability-Report.pdf#p11",
+        "NVIDIA-2024-Annual-Report.pdf#p63"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "Scope 1 and 2 renewable electricity commitment",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "we aim to reduce our Scope 1 and 2 emissions in line with prevalent climate science standards",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+         "FY2024-NVIDIA-Corporate-Sustainability-Report.pdf#p11"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": null,
+      "title": "Scope 1 and 2 reductions",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": " expected to result in zero scope 2 market-based emissions by the end of our fiscal year ending January 26, 2025",
+      "reduction_pct": 100,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "FY2024-NVIDIA-Corporate-Sustainability-Report.pdf#p11"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "Scope 2 (market-based)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Manufacturing suppliers",
+      "coverage_pct": 67.0,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Engage suppliers covering at least 67% of Scope 3 category 1 emissions by end of FY26 to drive adoption of science-based targets.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1
+      ],
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "FY2024-NVIDIA-Corporate-Sustainability-Report.pdf#p11",
+        "NVIDIA-2024-Annual-Report.pdf#p63"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2026,
+      "title": "Scope 3 supplier engagement target",
+      "unit": null
+    }
+  ]
+}

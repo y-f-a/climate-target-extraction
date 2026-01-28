@@ -1,15 +1,15 @@
 {
-  "company": "Apple Inc.",
+  "company": "Apple Inc. (AAPL)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "Company-wide; entire business, manufacturing supply chain, and product life cycle",
+      "boundary": "Company-wide, covering Apple’s entire value chain (Scopes 1, 2, and 3).",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Part of Apple’s 2030 climate roadmap; remaining emissions planned to be neutralized.",
+      "notes": "Apple’s 2030 climate roadmap calls for a 75% absolute reduction in its overall greenhouse gas footprint between 2015 and 2030, with remaining emissions addressed via carbon removal.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,21 +21,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_near_term",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce total GHG emissions 75% by 2030 from 2015 baseline",
+      "title": "75% reduction in total carbon footprint by 2030 vs 2015",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": null,
-      "boundary": "Company-wide; entire business, manufacturing supply chain, and product life cycle",
+      "base_year": 2015,
+      "boundary": "Company-wide net-zero target covering all operations, manufacturing supply chain, and product life cycle (Scopes 1, 2, and 3).",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero plan includes deep reductions and neutralization of residual emissions via removals/offsets.",
+      "notes": "Apple targets net-zero greenhouse gas emissions across its entire value chain by 2030, achieved through emissions reductions and carbon removal for residual emissions.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -47,10 +47,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon neutral across entire value chain by 2030",
+      "title": "Net-zero (carbon neutral) across business, supply chain, and product life cycle by 2030",
       "unit": null
     }
   ]

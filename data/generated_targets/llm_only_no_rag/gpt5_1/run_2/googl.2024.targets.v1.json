@@ -1,56 +1,28 @@
 {
-  "company": "Alphabet Inc. (Google)",
+  "company": "Alphabet Inc.",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2019,
-      "boundary": "company-wide",
+      "base_year": null,
+      "boundary": "Global Google data centers and office campuses",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Company-wide target covering operations and value chain.",
-      "reduction_pct": 50.0,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": null,
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "company-wide",
-      "coverage_pct": null,
-      "horizon": "net_zero",
-      "metric_type": "absolute",
-      "notes": "Company-wide net-zero across operations and value chain.",
+      "notes": "Target is defined as operating on 24/7 carbon-free electricity rather than a quantified GHG reduction against a base year.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
+        "S2"
       ],
       "sources": [
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": null,
+      "title": "24/7 carbon-free energy for all data centers and campuses by 2030",
       "unit": null
     }
   ]

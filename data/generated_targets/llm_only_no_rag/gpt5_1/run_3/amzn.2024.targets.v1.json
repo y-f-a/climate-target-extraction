@@ -9,7 +9,33 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero carbon by 2040 commitment via The Climate Pledge.",
+      "notes": "Net-zero carbon across Amazon’s entire business by 2040 as part of The Climate Pledge, with residual emissions neutralized via carbon offsets.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2040,
+      "title": "Company-wide net-zero carbon emissions by 2040",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "customer shipments worldwide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Shipment Zero vision to make 50% of Amazon customer shipments net-zero carbon by 2030 through decarbonizing delivery operations.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [],
@@ -19,8 +45,32 @@
       "status": "unknown",
       "target_type": "non_target_claim",
       "target_value": null,
-      "target_year": 2040,
-      "title": "The Climate Pledge: Net-zero carbon by 2040",
+      "target_year": 2030,
+      "title": "50% of shipments net-zero carbon by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "electricity use for Amazon operations worldwide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target to power Amazon’s operations with 100% renewable electricity by 2025, addressing Scope 2 emissions from purchased energy.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "100% renewable energy for operations by 2025",
       "unit": null
     }
   ]

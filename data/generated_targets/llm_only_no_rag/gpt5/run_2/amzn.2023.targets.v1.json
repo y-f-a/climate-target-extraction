@@ -9,10 +9,13 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "The Climate Pledge net-zero by 2040; residual emissions to be neutralized.",
+      "notes": "Commitment via The Climate Pledge to be net-zero carbon by 2040.",
       "reduction_pct": null,
       "scope3_categories": null,
-      "scopes_covered": [],
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
       "sources": [
         "world_knowledge"
       ],

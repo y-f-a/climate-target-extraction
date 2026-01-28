@@ -4,37 +4,12 @@
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2013,
-      "boundary": null,
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Versus a 2013 baseline.",
-      "reduction_pct": 75.0,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Reduce Scope 1 and 2 emissions 75% by 2030 vs 2013",
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "Company-wide (global operations and value chain)",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Includes Scopes 1–3 and relies on carbon removal to achieve net-negative balance.",
+      "notes": "Stated aim to cut Scopes 1–3 emissions by more than half by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -46,21 +21,47 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon negative by 2030 (Scopes 1–3)",
+      "title": null,
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "Company-wide (global operations and value chain)",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Carbon negative by 2030; net removals exceed all Scope 1–3 emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Company-wide historical emissions (direct and electricity)",
       "coverage_pct": null,
       "horizon": "long_term",
       "metric_type": "absolute",
-      "notes": "Removal of historical emissions since 1975 for direct operations and electricity.",
+      "notes": "Remove all historical Scope 1–2 emissions since 1975.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -74,7 +75,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2050,
-      "title": "Remove all historical Scope 1–2 emissions by 2050",
+      "title": null,
       "unit": null
     }
   ]

@@ -1,4 +1,29 @@
 {
-  "company": null,
-  "targets": []
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Renewable electricity procurement goal; not stated as an emissions reduction percentage target.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "100% renewable electricity for global operations by FY2025",
+      "unit": null
+    }
+  ]
 }

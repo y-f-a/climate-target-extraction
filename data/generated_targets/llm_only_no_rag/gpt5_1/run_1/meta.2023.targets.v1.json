@@ -4,12 +4,37 @@
     {
       "ambition": "unspecified",
       "base_value": null,
+      "base_year": 2017,
+      "boundary": "Company-wide operational greenhouse gas emissions from global facilities and data centers.",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Target to reduce operational greenhouse gas emissions by 75% between 2017 and 2020.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "75% reduction in operational GHG emissions by 2020 vs 2017",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
       "base_year": null,
-      "boundary": "company-wide value chain",
+      "boundary": "Company-wide value chain emissions across Scopes 1, 2, and 3.",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Covers Scopes 1, 2 and 3 across the value chain.",
+      "notes": "Commitment to reach net zero greenhouse gas emissions across the value chain by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,36 +46,11 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net zero across the value chain by 2030",
+      "title": "Net zero greenhouse gas emissions across value chain by 2030",
       "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": 2017,
-      "boundary": "global operations",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Operational Scopes 1 and 2; achieved in 2020.",
-      "reduction_pct": 75.0,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2020,
-      "title": "Reduce operational GHG emissions by 75% by 2020 vs 2017",
-      "unit": "%"
     }
   ]
 }

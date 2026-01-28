@@ -1,18 +1,20 @@
 {
-  "company": "Microsoft",
+  "company": "Microsoft Corporation",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2020,
-      "boundary": null,
+      "base_year": null,
+      "boundary": "Company-wide",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Part of the 2030 carbon-negative commitment.",
-      "reduction_pct": 50.0,
+      "notes": "Company states it will cut total Scope 1, 2 and 3 emissions by more than half by 2030.",
+      "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
+        "S1",
+        "S2",
         "S3"
       ],
       "sources": [
@@ -22,43 +24,18 @@
       "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Cut Scope 3 emissions 50% by 2030 (from 2020)",
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": null,
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Part of the 2030 carbon-negative commitment; reductions paired with removals.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Reduce Scope 1 and 2 emissions by 2030",
+      "title": "Reduce Scopes 1–3 emissions by more than half by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "Company-wide",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Remove more carbon than emitted across the value chain by 2030.",
+      "notes": "Commitment to remove more carbon than emitted across Scopes 1, 2 and 3 by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -73,18 +50,18 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon negative across Scopes 1–3 by 2030",
+      "title": "Carbon negative by 2030 (Scopes 1–3)",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "Company-wide; historical S1 and S2 since 1975",
       "coverage_pct": null,
-      "horizon": "net_zero",
+      "horizon": "long_term",
       "metric_type": "absolute",
-      "notes": "Commitment to remove all direct and electricity-related emissions since 1975 by 2050.",
+      "notes": "Pledge to remove all carbon emitted directly and from electricity use since 1975 by 2050.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -95,10 +72,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2050,
-      "title": "Remove all historical Scope 1 and 2 emissions by 2050",
+      "title": "Remove historical Scope 1–2 emissions by 2050",
       "unit": null
     }
   ]

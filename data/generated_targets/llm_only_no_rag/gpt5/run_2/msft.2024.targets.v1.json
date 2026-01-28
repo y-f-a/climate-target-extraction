@@ -5,11 +5,36 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": "Company-wide operations",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Company-stated goal to cut value chain (Scope 3) emissions by more than half by 2030.",
+      "notes": "Reduce Scope 1 and 2 operational emissions to near zero by 2030 as part of the carbon negative program.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Near-zero Scope 1 and 2 by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Company-wide value chain",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Company aims to cut Scope 3 emissions by more than half by 2030 as part of its carbon negative pledge.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -22,18 +47,18 @@
       "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce Scope 3 emissions by >50% by 2030",
+      "title": "Scope 3 emissions reduction by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": "Company-wide",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Net-negative GHG emissions across all scopes by 2030 via reductions and carbon removals.",
+      "notes": "Achieve carbon negative status by 2030 by removing more carbon than emitted across Scopes 1–3.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -48,18 +73,18 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon negative by 2030 (Scopes 1-3)",
+      "title": "Carbon negative by 2030 (Scopes 1–3)",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": "Company-wide (historical Scope 1 and Scope 2)",
       "coverage_pct": null,
       "horizon": "long_term",
       "metric_type": "absolute",
-      "notes": "Remove all carbon emitted directly and from electricity use since 1975 by 2050.",
+      "notes": "Remove all historical direct and electricity-related emissions since founding by 2050.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -73,7 +98,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2050,
-      "title": "Remove historical company emissions by 2050 (Scopes 1-2)",
+      "title": "Remove historical emissions by 2050 (Scopes 1–2)",
       "unit": null
     }
   ]

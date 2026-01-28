@@ -11,3 +11,10 @@ Specifically, it is a controlled, quantitative comparison of GPT-5, GPT-5.1, and
 The evaluation uses annual reports and sustainability reports from 7 companies across 2 reporting years, totaling approximately 650 MB of documents.
 
 To avoid redistribution and licensing issues, I did not include source documents in this repository. The notebook expects documents to be provided locally in the format described within the notebook.
+
+---
+
+## Write-up
+
+- Part 1: https://www.reyfarhan.com/posts/climate-targets-01/
+- Part 2: https://www.reyfarhan.com/posts/climate-targets-02/

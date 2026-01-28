@@ -1,15 +1,41 @@
 {
-  "company": "Alphabet Inc. (Google)",
+  "company": "Alphabet Inc.",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
+      "base_year": 2019,
+      "boundary": "Company-wide operations and value chain",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Company goal to cut combined Scope 1, 2, and 3 absolute greenhouse gas emissions by 2030 from a 2019 baseline; not identified as an SBTi-approved target.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "50% absolute reduction in Scope 1, 2, and 3 GHG emissions by 2030 vs 2019",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
       "base_year": null,
-      "boundary": "Company-wide across operations and value chain",
+      "boundary": "Company-wide operations and value chain",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company-wide coverage across Scopes 1, 2, and 3.",
+      "notes": "Corporate net-zero goal across Scope 1, 2, and 3 emissions by 2030; not identified as an SBTi-approved target.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,10 +47,34 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net-zero emissions across operations and value chain by 2030",
+      "title": "Net-zero greenhouse gas emissions across operations and value chain by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global data centers and office campuses",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Operational target to match electricity demand with carbon-free energy on a 24/7 basis by 2030, primarily affecting Scope 2 emissions; not identified as an SBTi-approved target.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "24/7 carbon-free energy for data centers and offices by 2030",
       "unit": null
     }
   ]

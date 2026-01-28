@@ -1,15 +1,15 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (Google)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide (operations and value chain)",
+      "boundary": "Company-wide operations and value chain, including consumer hardware products",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero target across operations and value chain.",
+      "notes": "Net-zero to be achieved through emissions reductions across all scopes with remaining emissions neutralized by high-quality carbon removals.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,47 +21,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Achieve net-zero emissions across operations and value chain by 2030",
+      "title": "Net-zero emissions across operations and value chain by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2019,
-      "boundary": "company-wide (operations and value chain)",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Company-wide absolute reduction from a 2019 baseline.",
-      "reduction_pct": 50.0,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Reduce absolute GHG emissions 50% by 2030 vs 2019 baseline",
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
       "base_year": null,
-      "boundary": "global data centers and campuses",
+      "boundary": "Global Google data centers and office campuses",
       "coverage_pct": null,
       "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Target to match electricity use with carbon-free energy around the clock.",
+      "metric_type": "intensity",
+      "notes": "Target is to match electricity demand with carbon-free energy on an hourly basis rather than only annual renewable energy purchases.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -71,10 +45,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_near_term",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "24/7 carbon-free energy by 2030",
+      "title": "24/7 carbon-free energy for all data centers and offices by 2030",
       "unit": null
     }
   ]

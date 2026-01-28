@@ -1,41 +1,15 @@
 {
-  "company": "Microsoft Corporation",
+  "company": "Microsoft",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": null,
       "coverage_pct": null,
-      "horizon": "near_term",
+      "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Gross emissions reduction across Scopes 1–3 by 2030, stated as more than half.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Company-wide emissions reduction by 2030 (gross)",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "company-wide",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Remove more carbon than emitted across operations and value chain by 2030.",
+      "notes": "Company-wide goal to be carbon negative by 2030 (remove more carbon than it emits).",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -50,18 +24,18 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon negative by 2030 (Scopes 1–3)",
+      "title": "Carbon negative by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": null,
       "coverage_pct": null,
-      "horizon": "long_term",
+      "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Commitment to remove historical Scope 1–2 emissions since founding by 2050.",
+      "notes": "Goal to remove by 2050 all carbon emitted directly and from electricity consumption since the company was founded in 1975.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -75,7 +49,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2050,
-      "title": "Remove historical emissions since 1975 by 2050",
+      "title": "Remove historical emissions by 2050 (since 1975)",
       "unit": null
     }
   ]

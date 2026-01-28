@@ -4,12 +4,12 @@
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2017,
-      "boundary": "global operations",
+      "base_year": null,
+      "boundary": "global operations (Scope 1 and 2)",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Operational emissions only (Scopes 1 and 2).",
+      "notes": "Historic target to reduce Meta’s Scope 1 and 2 greenhouse gas emissions for global operations by 75% by 2020.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -20,46 +20,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2020,
-      "title": "Reduce operational GHG emissions 75% by 2020 vs 2017",
+      "title": "2020 operations 75% GHG reduction target",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "global operations",
+      "boundary": "entire value chain (Scopes 1, 2 and 3)",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company states it achieved net zero GHG emissions in its own operations in 2020.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2020,
-      "title": "Net zero operations (Scopes 1 and 2) by 2020",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "entire value chain",
-      "coverage_pct": null,
-      "horizon": "net_zero",
-      "metric_type": "absolute",
-      "notes": "Net zero target covers Scopes 1, 2, and 3 with neutralization of residual emissions.",
+      "notes": "Goal to achieve net zero greenhouse gas emissions across Meta’s full value chain, including suppliers and other Scope 3 activities, by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -71,10 +46,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net zero across value chain by 2030",
+      "title": "2030 net zero value chain target",
       "unit": null
     }
   ]

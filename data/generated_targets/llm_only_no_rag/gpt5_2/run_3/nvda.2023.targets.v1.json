@@ -1,4 +1,29 @@
 {
-  "company": null,
-  "targets": []
+  "company": "NVIDIA",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target to procure or source 100% renewable electricity for operations by the target year.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable electricity for operations",
+      "unit": "%"
+    }
+  ]
 }

@@ -1,4 +1,51 @@
 {
-  "company": null,
-  "targets": []
+  "company": "NVIDIA",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Goal framed as sourcing 100% renewable electricity for operations (not an SBTi-validated emissions-reduction target).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2025,
+      "title": "100% renewable electricity for global operations by 2025",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "operations",
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": "Public claim of carbon-neutral operations maintained since 2006 (typically via renewable energy and/or offsets); specific scope coverage not confidently known.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Carbon neutral operations (since 2006)",
+      "unit": null
+    }
+  ]
 }

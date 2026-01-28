@@ -1,5 +1,5 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (Google)",
   "targets": [
     {
       "ambition": "unspecified",
@@ -9,10 +9,14 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company also targets 24/7 carbon-free energy across data centers and campuses by 2030 (not an emissions metric).",
+      "notes": "Stated as a net-zero goal by 2030 covering operations and the value chain; specific base year and reduction pathway not specified here.",
       "reduction_pct": null,
       "scope3_categories": null,
-      "scopes_covered": [],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
       "sources": [
         "world_knowledge"
       ],
@@ -20,7 +24,73 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net-zero greenhouse gas emissions by 2030",
+      "title": "Net-zero emissions across operations and value chain by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Goal to match electricity consumption with carbon-free energy on an hourly basis (24/7) by 2030; not expressed as a GHG emissions reduction target.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2030,
+      "title": "Operate on 24/7 carbon-free energy by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Ongoing renewable energy matching claim for annual electricity consumption, first achieved in 2017; not a full value-chain GHG target.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2017,
+      "title": "Match 100% of annual electricity use with renewable energy (achieved from 2017 onward)",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Claim of carbon neutrality since 2007 achieved through the use of carbon offsets; scope coverage details not specified here.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2007,
+      "title": "Carbon neutral operations since 2007 (via offsets)",
       "unit": null
     }
   ]

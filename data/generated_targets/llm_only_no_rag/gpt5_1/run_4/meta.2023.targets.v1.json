@@ -4,12 +4,37 @@
     {
       "ambition": "unspecified",
       "base_value": null,
+      "base_year": 2017,
+      "boundary": "company operations (Scopes 1 and 2)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Meta set a goal to reduce operational greenhouse gas emissions by 75% by 2020 relative to a 2017 baseline.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Reduce operational GHG emissions 75% by 2020",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
       "base_year": null,
-      "boundary": "company-wide value chain",
+      "boundary": "company-wide value chain (Scopes 1, 2 and 3)",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Public commitment; not SBTi-validated.",
+      "notes": "Meta aims to achieve net zero greenhouse gas emissions across its entire value chain by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,35 +46,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net zero across value chain by 2030",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "own operations",
-      "coverage_pct": null,
-      "horizon": "net_zero",
-      "metric_type": "absolute",
-      "notes": "Achieved in 2020.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2020,
-      "title": "Net zero operations (Scopes 1 and 2) by 2020",
+      "title": "Net zero greenhouse gas emissions across value chain by 2030",
       "unit": null
     }
   ]

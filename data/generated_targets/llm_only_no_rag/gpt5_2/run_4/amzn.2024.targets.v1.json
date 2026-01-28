@@ -1,18 +1,22 @@
 {
-  "company": "Amazon.com, Inc.",
+  "company": "Amazon.com, Inc. (AMZN)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero carbon by 2040 under The Climate Pledge; residual emissions to be neutralized.",
+      "notes": "Net-zero carbon across the business by 2040; remaining emissions intended to be neutralized with credible offsets/removals.",
       "reduction_pct": null,
       "scope3_categories": null,
-      "scopes_covered": [],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
       "sources": [
         "world_knowledge"
       ],
@@ -20,8 +24,54 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "title": "The Climate Pledge: net-zero carbon by 2040",
       "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Amazon shipments",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target expressed as the share of shipments that are net-zero carbon (not an absolute GHG reduction target).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 50.0,
+      "target_year": 2030,
+      "title": "Shipment Zero: 50% of shipments net-zero carbon by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target to match electricity consumption with renewable energy (scope 2 market-based approach implied).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable energy for operations by 2025",
+      "unit": "%"
     }
   ]
 }

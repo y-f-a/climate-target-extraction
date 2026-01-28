@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "company-wide, including operations, supply chain, and product life cycle",
+      "boundary": "Company-wide footprint including products and supply chain",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Part of Apple 2030 plan; remaining emissions addressed with carbon removal.",
+      "notes": "Stated as part of Apple’s 2030 carbon-neutral plan; remaining emissions to be addressed via carbon removal/credits.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,21 +21,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_near_term",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce absolute GHG emissions 75% by 2030 vs 2015 (Apple 2030)",
+      "title": "Reduce overall carbon footprint 75% by 2030 (vs 2015)",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide, including operations, supply chain, and product life cycle",
+      "boundary": "Company-wide footprint including products and supply chain",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Carbon neutral across operations, supply chain, and product life cycle.",
+      "notes": "Net carbon neutrality by 2030, combining emissions reductions with carbon removals for residual emissions.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -47,10 +47,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net zero across entire value chain by 2030 (Apple 2030)",
+      "title": "Carbon neutral across entire footprint by 2030",
       "unit": null
     }
   ]

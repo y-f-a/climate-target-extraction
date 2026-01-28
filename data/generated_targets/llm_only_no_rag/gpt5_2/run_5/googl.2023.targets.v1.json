@@ -1,21 +1,65 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (GOOGL)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": null,
       "coverage_pct": null,
-      "horizon": "net_zero",
+      "horizon": "long_term",
       "metric_type": "absolute",
-      "notes": "Includes neutralization of residual emissions with removals.",
+      "notes": "Company has stated it has been carbon neutral since 2007 primarily through the use of carbon credits/offsets.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2007,
+      "title": "Carbon neutral operations (since 2007)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "intensity",
+      "notes": "Company has stated that since 2017 it has matched 100% of its annual electricity consumption with renewable energy purchases (annual matching, not necessarily 24/7).",
+      "reduction_pct": 100.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2017,
+      "title": "Match 100% of annual electricity consumption with renewable energy purchases (since 2017)",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Goal to run on carbon-free energy on an hourly (24/7) basis by 2030 across operations (commonly described for data centers and campuses).",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
+        "S2"
       ],
       "sources": [
         "world_knowledge"
@@ -24,7 +68,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net-zero emissions across operations and value chain by 2030",
+      "title": "Operate on 24/7 carbon-free energy by 2030",
       "unit": null
     }
   ]

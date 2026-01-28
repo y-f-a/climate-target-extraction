@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Target under The Climate Pledge; remaining emissions to be neutralized.",
+      "notes": "Net-zero carbon by 2040 commitment under The Climate Pledge; remaining emissions are expected to be neutralized with offsets.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [],
@@ -20,8 +20,30 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "title": "Net-zero carbon emissions by 2040",
       "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "global customer shipments",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target to make 50% of Amazon shipments net-zero carbon by 2030 as part of the Shipment Zero initiative.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 50.0,
+      "target_year": 2030,
+      "title": "50% of Amazon shipments net-zero carbon by 2030",
+      "unit": "%"
     }
   ]
 }

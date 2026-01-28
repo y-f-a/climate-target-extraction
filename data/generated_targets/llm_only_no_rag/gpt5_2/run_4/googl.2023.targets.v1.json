@@ -1,15 +1,15 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (Google)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "Company-wide (operations and value chain)",
+      "boundary": "company-wide (operations and value chain)",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero goal includes reductions and neutralization/removals for residual emissions.",
+      "notes": "Stated net-zero goal for 2030; includes actions to address residual emissions (e.g., carbon removal) but quantitative residual/neutralization details not specified here.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -31,11 +31,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "All data centers and office campuses worldwide",
+      "boundary": null,
       "coverage_pct": null,
       "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Hourly matching of electricity demand with carbon-free sources to reduce market-based Scope 2 emissions.",
+      "metric_type": "intensity",
+      "notes": "Goal to operate on carbon-free energy on a 24/7 basis (hourly matching) by 2030; expressed as a share of electricity matched with carbon-free supply.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -46,10 +46,10 @@
       ],
       "status": "unknown",
       "target_type": "non_target_claim",
-      "target_value": null,
+      "target_value": 100.0,
       "target_year": 2030,
-      "title": "Operate on 24/7 carbon-free energy by 2030",
-      "unit": null
+      "title": "24/7 carbon-free energy for electricity consumption by 2030",
+      "unit": "%"
     }
   ]
 }

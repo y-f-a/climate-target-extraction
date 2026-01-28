@@ -1,4 +1,53 @@
 {
-  "company": null,
-  "targets": []
+  "company": "Tesla, Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Stated as an ambition to achieve net-zero energy and emissions across the full lifecycle/value chain, without a specified base year, target year, or quantified reduction pathway.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Net-zero energy and emissions across the entire lifecycle of products",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "intensity",
+      "notes": "Goal/aspiration framed as sourcing renewable energy for operations, without a specified target year or quantified emissions reduction relative to a baseline.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "100% renewable energy for operations",
+      "unit": null
+    }
+  ]
 }

@@ -1,4 +1,27 @@
 {
-  "company": null,
-  "targets": []
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Company-level long-term net-zero greenhouse gas emissions goal with limited publicly specified quantitative parameters.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": null,
+      "title": "Long-term net-zero greenhouse gas emissions goal",
+      "unit": null
+    }
+  ]
 }

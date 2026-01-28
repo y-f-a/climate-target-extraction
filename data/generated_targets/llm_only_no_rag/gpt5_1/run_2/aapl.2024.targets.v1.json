@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "entire value chain (Scopes 1–3)",
+      "boundary": "Entire business, manufacturing supply chain, and product life cycle (company-wide value chain).",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Plan to cut absolute emissions 75% vs 2015 and neutralize residuals with carbon removal.",
+      "notes": "Apple plans to cut total scope 1–3 GHG emissions 75% from a 2015 baseline by 2030, with remaining emissions addressed via carbon removal.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,21 +21,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "75% absolute emissions reduction by 2030 vs 2015 (value chain)",
+      "title": "75% reduction in total GHG emissions by 2030 vs 2015",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "entire value chain (Scopes 1–3)",
+      "boundary": "Entire business, manufacturing supply chain, and product life cycle (company-wide value chain).",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Carbon neutrality to be achieved via emissions reductions and carbon removal for residuals across supply chain and product lifecycle.",
+      "notes": "Apple aims to achieve net zero scope 1, 2 and 3 GHG emissions by 2030 using deep reductions plus carbon removal for residual emissions.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -47,21 +47,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon neutral across value chain by 2030",
+      "title": "Net-zero GHG emissions across entire value chain by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "corporate operations (facilities, offices, data centers)",
+      "boundary": "Corporate operations worldwide (offices, retail stores, and data centers).",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Operations carbon neutrality maintained with 100% renewable electricity and offsets/removals for residual emissions.",
+      "notes": "Apple targeted carbon neutral corporate operations by 2020 primarily via renewable energy procurement and offsetting.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -75,7 +75,31 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2020,
-      "title": "Carbon neutral corporate operations since 2020",
+      "title": "Carbon-neutral corporate operations by 2020",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Lifecycle emissions of all Apple products sold (materials, manufacturing, transport, use and end-of-life).",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Apple plans for every product it sells to be carbon neutral across its lifecycle by 2030 using emissions reductions and carbon removal.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "All Apple products carbon neutral by 2030",
       "unit": null
     }
   ]

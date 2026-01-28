@@ -4,61 +4,12 @@
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2019,
-      "boundary": null,
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Company-wide Scope 3 absolute reduction as part of 2030 climate program.",
-      "reduction_pct": 50.0,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Reduce Scope 3 emissions 50% by 2030 vs 2019",
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "Company-wide operations and value chain",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Qualitative near-zero goal without a stated percentage reduction.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2025,
-      "title": "Reduce Scope 1 and 2 emissions to near zero by 2025",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": null,
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Net removals exceed residual emissions across value chain by 2030.",
+      "notes": "By 2030 Microsoft intends to reduce and remove emissions so that it is carbon negative across Scope 1, 2 and 3.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -73,18 +24,67 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon negative across Scopes 1–3 by 2030",
+      "title": "Carbon negative by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "Company-wide operations (direct emissions and purchased electricity)",
       "coverage_pct": null,
-      "horizon": "long_term",
+      "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Commitment to remove all historical direct and electricity emissions since founding.",
+      "notes": "Microsoft states it will reduce its Scope 1 and 2 emissions to near zero by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Near-zero Scope 1 and 2 emissions by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Company value chain (Scope 3 emissions)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Microsoft states it will reduce its Scope 3 emissions by more than half by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reduce Scope 3 emissions by more than half by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Direct emissions and electricity use since the company’s founding",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "By 2050 Microsoft aims to remove from the environment all carbon it has emitted directly and from electricity consumption since 1975.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -98,7 +98,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2050,
-      "title": "Remove historical Scope 1–2 emissions since 1975 by 2050",
+      "title": "Remove historical operational carbon by 2050",
       "unit": null
     }
   ]

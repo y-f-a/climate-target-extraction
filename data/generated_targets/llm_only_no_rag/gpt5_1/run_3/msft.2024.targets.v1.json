@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
-      "coverage_pct": null,
+      "boundary": "Company-wide global operations and value chain",
+      "coverage_pct": 100.0,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Company aims to remove more carbon than it emits across scopes 1–3 by 2030.",
+      "notes": "Microsoft aims to become carbon negative by 2030 by reducing Scope 1, 2 and 3 emissions and removing more carbon than it emits annually.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,7 +21,7 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
       "title": "Carbon negative by 2030",
@@ -31,46 +31,73 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
-      "coverage_pct": null,
+      "boundary": "Electricity use for Microsoft data centers, buildings and campuses worldwide",
+      "coverage_pct": 100.0,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Described as a reduction of more than 50% in value-chain emissions by 2030.",
+      "notes": "Microsoft targets 100% of the electricity used in its data centers, buildings and campuses to be supplied by renewable energy by 2025.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
-        "S3"
+        "S2"
       ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Reduce Scope 3 emissions by more than half by 2030",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": null,
-      "coverage_pct": null,
-      "horizon": "long_term",
-      "metric_type": "absolute",
-      "notes": "Commitment to remove historical company emissions dating back to 1975 by 2050.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [],
       "sources": [
         "world_knowledge"
       ],
       "status": "unknown",
       "target_type": "non_target_claim",
       "target_value": null,
+      "target_year": 2025,
+      "title": "100% renewable electricity by 2025",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global electricity consumption across Microsoft operations",
+      "coverage_pct": 100.0,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Microsoft seeks by 2030 to match 100% of its electricity consumption with zero-carbon energy 100% of the time, further reducing market-based Scope 2 emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "100/100/0 zero-carbon energy by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Historical Scope 1 and 2 emissions from Microsoft operations and electricity use since 1975",
+      "coverage_pct": 100.0,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "By 2050 Microsoft plans to remove from the environment all carbon it has emitted directly and from electricity use since its founding in 1975.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
       "target_year": 2050,
-      "title": "Remove historical emissions since 1975 by 2050",
+      "title": "Remove historical Scope 1 and 2 emissions by 2050",
       "unit": null
     }
   ]

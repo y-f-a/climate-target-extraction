@@ -1,55 +1,6 @@
 {
-  "company": "Microsoft Corporation",
+  "company": "Microsoft",
   "targets": [
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "company-wide",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Company states intention to reduce Scope 3 emissions by more than half by 2030; baseline year not clearly specified publicly.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Scope 3 emissions reduction by 2030",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "company-wide",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Reduce Scope 1 and 2 operational emissions to near zero by 2030.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Operational emissions (Scopes 1 and 2) near zero by 2030",
-      "unit": null
-    },
     {
       "ambition": "unspecified",
       "base_value": null,
@@ -58,7 +9,7 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Carbon negative by 2030, meaning removals exceed total Scope 1, 2, and 3 emissions.",
+      "notes": "Corporate goal to be carbon negative by 2030 (reduce emissions and remove more carbon than emitted across operations and supply chain).",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -70,21 +21,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon negative by 2030 (company-wide)",
+      "title": "Carbon negative by 2030",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": null,
+      "base_year": 1975,
       "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "long_term",
       "metric_type": "absolute",
-      "notes": "Remove all historical Scope 1 and Scope 2 emissions since 1975 by 2050.",
+      "notes": "Corporate goal to remove from the atmosphere all carbon emitted directly and from electricity consumption since 1975 by 2050.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -98,8 +49,32 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2050,
-      "title": "Remove historical operational emissions by 2050",
+      "title": "Remove all historical direct and electricity-related emissions since founding by 2050",
       "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Corporate goal to source 100% of electricity from renewable energy by 2025.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable electricity by 2025",
+      "unit": "%"
     }
   ]
 }

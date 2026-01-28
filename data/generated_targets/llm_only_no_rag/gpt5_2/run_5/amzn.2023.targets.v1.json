@@ -1,15 +1,65 @@
 {
-  "company": "Amazon.com, Inc.",
+  "company": "Amazon.com, Inc. (Amazon)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": null,
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero carbon across the business by 2040 via The Climate Pledge; residual emissions may be neutralized with offsets.",
+      "notes": "Company-wide net-zero carbon goal under The Climate Pledge; specific residual emissions and neutralization approach not specified here.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2040,
+      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Amazon operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Target to match electricity consumption with 100% renewable energy (typically via a combination of onsite generation, PPAs, and energy attribute certificates).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable energy for operations by 2025",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Goal framed as a share of shipments achieving net-zero carbon; scope coverage and accounting methodology not specified here.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [],
@@ -18,10 +68,10 @@
       ],
       "status": "unknown",
       "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
-      "unit": null
+      "target_value": 50.0,
+      "target_year": 2030,
+      "title": "Shipment Zero: 50% of shipments net-zero carbon by 2030",
+      "unit": "%"
     }
   ]
 }

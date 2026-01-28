@@ -1,15 +1,15 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (GOOGL)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "Across operations and value chain",
+      "boundary": "Company-wide operations and value chain",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company-level net-zero goal; not SBTi-validated.",
+      "notes": "Company-stated goal to reach net-zero emissions across operations and value chain by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,7 +24,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net-zero emissions across operations and value chain by 2030",
+      "title": "Net-zero GHG emissions across operations and value chain by 2030",
       "unit": null
     }
   ]

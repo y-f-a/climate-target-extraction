@@ -9,7 +9,7 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Includes neutralization of residual emissions as part of The Climate Pledge.",
+      "notes": "Public commitment to reach net-zero carbon by 2040.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,8 +24,54 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "title": "Net-zero carbon across its business by 2040 (The Climate Pledge)",
       "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target framed as a share of shipments reaching net-zero carbon.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 50.0,
+      "target_year": 2030,
+      "title": "Shipment Zero: 50% of shipments net-zero carbon by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Renewable electricity matching target (electricity-related emissions).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Match 100% of electricity consumption with renewable energy by 2025",
+      "unit": "%"
     }
   ]
 }

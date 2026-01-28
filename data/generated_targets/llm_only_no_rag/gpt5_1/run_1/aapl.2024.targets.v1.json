@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "company-wide (Scopes 1–3, full value chain)",
-      "coverage_pct": null,
+      "boundary": "Entire value chain (global operations, supply chain, and product lifecycle).",
+      "coverage_pct": 100.0,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Part of Apple’s 2030 plan; residual emissions to be neutralized to reach carbon neutrality.",
+      "notes": "Apple describes this as the emissions-reduction component of its 2030 net-zero value-chain goal.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,21 +21,21 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_near_term",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce absolute GHG emissions 75% by 2030 vs 2015",
+      "title": "2030 75% absolute GHG reduction vs 2015 (full value chain)",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide (Scopes 1–3, full value chain)",
-      "coverage_pct": null,
+      "boundary": "Entire value chain (global operations, supply chain, and product lifecycle).",
+      "coverage_pct": 100.0,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Relies on carbon removals to neutralize residual emissions.",
+      "notes": "This net-zero target builds on the 2030 reduction goal and addresses residual emissions to achieve net-zero climate impact by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -50,7 +50,32 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon neutral across entire value chain by 2030",
+      "title": "2030 net-zero GHG emissions across value chain",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global corporate operations (offices, retail stores, and data centers).",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Apple states its global corporate operations have been carbon neutral since 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Carbon-neutral corporate operations from 2020",
       "unit": null
     }
   ]

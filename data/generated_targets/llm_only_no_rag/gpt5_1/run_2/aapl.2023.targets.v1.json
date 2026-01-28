@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "entire value chain",
-      "coverage_pct": 100.0,
-      "horizon": "near_term",
+      "boundary": "Company-wide operations, manufacturing supply chain, and full product life cycle.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Part of Apple 2030; residual emissions to be neutralized to achieve carbon neutrality.",
+      "notes": "Apple plans to reduce absolute Scope 1, 2, and 3 emissions by about 75% from a 2015 baseline and neutralize remaining emissions via carbon removal to be carbon neutral by 2030.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,36 +21,36 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Apple 2030: 75% absolute emissions reduction vs 2015",
+      "title": "2030 company-wide value chain carbon neutrality target",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "entire value chain",
-      "coverage_pct": 100.0,
-      "horizon": "net_zero",
+      "boundary": "Manufacturing supply chain electricity use for Apple-related production.",
+      "coverage_pct": null,
+      "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Includes use of carbon removals/offsets for residual emissions.",
+      "notes": "Apple aims for its manufacturing suppliers to use 100% renewable electricity for Apple production by 2030, which is expected to significantly reduce related Scope 3 emissions.",
       "reduction_pct": null,
-      "scope3_categories": null,
+      "scope3_categories": [
+        1
+      ],
       "scopes_covered": [
-        "S1",
-        "S2",
         "S3"
       ],
       "sources": [
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Apple 2030: carbon neutral across value chain",
+      "title": "2030 100% renewable electricity for manufacturing supply chain",
       "unit": null
     }
   ]

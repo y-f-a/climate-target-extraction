@@ -5,11 +5,36 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide value chain",
+      "boundary": "Global operations (Scopes 1 and 2)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Company states it has achieved net zero greenhouse gas emissions for its global operations supported by 100% renewable energy.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Net zero emissions for global operations by 2020",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Entire value chain (Scopes 1, 2 and 3)",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company states goal to achieve net zero GHG emissions across its value chain by 2030.",
+      "notes": "Company has announced a goal to reach net zero greenhouse gas emissions across its value chain by 2030; no science-based target validation is specified.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -21,35 +46,10 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "non_target_claim",
+      "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net zero across value chain by 2030",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "own operations",
-      "coverage_pct": null,
-      "horizon": "net_zero",
-      "metric_type": "absolute",
-      "notes": "Company reports achieving net zero GHG emissions for operational Scope 1 and 2 in 2020.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2020,
-      "title": "Net zero operations achieved in 2020",
+      "title": "Net zero emissions across value chain by 2030",
       "unit": null
     }
   ]

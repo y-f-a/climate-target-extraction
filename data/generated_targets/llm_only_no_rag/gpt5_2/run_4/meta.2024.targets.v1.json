@@ -5,38 +5,12 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": "global operations",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company-wide value chain net-zero target for Scopes 1, 2, and 3 by 2030.",
+      "notes": "Claimed net zero operational emissions from 2020 onward (typically through renewable energy procurement and carbon offsets for residual emissions).",
       "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Net zero across value chain by 2030",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": 2017,
-      "boundary": "company-wide operations",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Operational Scope 1 and 2 reduction target paired with 100% renewable energy goal.",
-      "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
         "S1",
@@ -49,8 +23,34 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2020,
-      "title": "Reduce operational GHG emissions 75% by 2020 from 2017 baseline",
-      "unit": "%"
+      "title": "Net zero emissions for global operations (achieved)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Goal stated as reaching net zero emissions across the value chain by 2030; detailed reduction/neutralization split not specified here.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Net zero emissions across the value chain",
+      "unit": null
     }
   ]
 }

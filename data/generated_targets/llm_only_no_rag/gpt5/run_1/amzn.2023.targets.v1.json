@@ -9,7 +9,7 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Announced via The Climate Pledge; residual emissions to be neutralized.",
+      "notes": "The Climate Pledge commitment; not SBTi-approved.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [],
@@ -20,7 +20,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040",
+      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
       "unit": null
     }
   ]

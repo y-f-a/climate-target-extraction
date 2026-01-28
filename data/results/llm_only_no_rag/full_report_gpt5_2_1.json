@@ -1,38 +1,38 @@
 {
   "aggregate": {
     "field_acc_macro": {
-      "ambition": 0.75,
-      "base_year": 0.625,
-      "horizon": 0.875,
-      "metric_type": 1.0,
+      "ambition": 0.5,
+      "base_year": 0.75,
+      "horizon": 0.6875,
+      "metric_type": 0.875,
       "reduction_pct": 0.625,
-      "scopes_covered": 0.5,
-      "target_value": 0.875,
+      "scopes_covered": 0.625,
+      "target_value": 0.6875,
       "target_year": 0.875,
-      "unit": 0.875
+      "unit": 0.625
     },
-    "hallucination_rate": 0.0,
-    "micro_f1": 0.30303030303030304,
-    "micro_precision": 1.0,
-    "micro_recall": 0.17857142857142858
+    "hallucination_rate": 0.09090909090909091,
+    "micro_f1": 0.5128205128205129,
+    "micro_precision": 0.9090909090909091,
+    "micro_recall": 0.35714285714285715
   },
   "per_doc": [
     {
       "doc": "nvda.2023.targets.v1.json",
       "field_accuracy": {
-        "ambition": null,
-        "base_year": null,
-        "horizon": null,
-        "metric_type": null,
-        "reduction_pct": null,
-        "scopes_covered": null,
-        "target_value": null,
-        "target_year": null,
-        "unit": null
+        "ambition": 0.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 0.0,
+        "reduction_pct": 0.0,
+        "scopes_covered": 1.0,
+        "target_value": 0.0,
+        "target_year": 1.0,
+        "unit": 0.0
       },
-      "fn": 2,
+      "fn": 1,
       "fp": 0,
-      "tp": 0
+      "tp": 1
     },
     {
       "doc": "nvda.2024.targets.v1.json",
@@ -71,26 +71,26 @@
     {
       "doc": "msft.2024.targets.v1.json",
       "field_accuracy": {
-        "ambition": 1.0,
-        "base_year": 0.0,
-        "horizon": 1.0,
-        "metric_type": 1.0,
-        "reduction_pct": 0.0,
-        "scopes_covered": 1.0,
-        "target_value": 1.0,
-        "target_year": 1.0,
-        "unit": 1.0
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
       },
-      "fn": 2,
+      "fn": 3,
       "fp": 0,
-      "tp": 1
+      "tp": 0
     },
     {
       "doc": "aapl.2023.targets.v1.json",
       "field_accuracy": {
         "ambition": 0.0,
         "base_year": 0.5,
-        "horizon": 0.5,
+        "horizon": 0.0,
         "metric_type": 1.0,
         "reduction_pct": 0.5,
         "scopes_covered": 1.0,
@@ -105,19 +105,19 @@
     {
       "doc": "aapl.2024.targets.v1.json",
       "field_accuracy": {
-        "ambition": null,
-        "base_year": null,
-        "horizon": null,
-        "metric_type": null,
-        "reduction_pct": null,
-        "scopes_covered": null,
-        "target_value": null,
-        "target_year": null,
-        "unit": null
+        "ambition": 0.0,
+        "base_year": 0.5,
+        "horizon": 0.5,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 0.5,
+        "unit": 0.5
       },
-      "fn": 3,
+      "fn": 1,
       "fp": 0,
-      "tp": 0
+      "tp": 2
     },
     {
       "doc": "googl.2023.targets.v1.json",
@@ -139,22 +139,39 @@
     {
       "doc": "googl.2024.targets.v1.json",
       "field_accuracy": {
-        "ambition": null,
-        "base_year": null,
-        "horizon": null,
-        "metric_type": null,
-        "reduction_pct": null,
-        "scopes_covered": null,
-        "target_value": null,
-        "target_year": null,
-        "unit": null
+        "ambition": 0.0,
+        "base_year": 0.0,
+        "horizon": 0.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
       },
-      "fn": 1,
+      "fn": 0,
       "fp": 0,
-      "tp": 0
+      "tp": 1
     },
     {
       "doc": "amzn.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 0,
+      "fp": 1,
+      "tp": 1
+    },
+    {
+      "doc": "amzn.2024.targets.v1.json",
       "field_accuracy": {
         "ambition": null,
         "base_year": null,
@@ -171,7 +188,24 @@
       "tp": 0
     },
     {
-      "doc": "amzn.2024.targets.v1.json",
+      "doc": "meta.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 0.0,
+        "target_value": 0.0,
+        "target_year": 1.0,
+        "unit": 0.0
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "meta.2024.targets.v1.json",
       "field_accuracy": {
         "ambition": 1.0,
         "base_year": 1.0,
@@ -183,43 +217,9 @@
         "target_year": 1.0,
         "unit": 1.0
       },
-      "fn": 0,
+      "fn": 2,
       "fp": 0,
       "tp": 1
-    },
-    {
-      "doc": "meta.2023.targets.v1.json",
-      "field_accuracy": {
-        "ambition": null,
-        "base_year": null,
-        "horizon": null,
-        "metric_type": null,
-        "reduction_pct": null,
-        "scopes_covered": null,
-        "target_value": null,
-        "target_year": null,
-        "unit": null
-      },
-      "fn": 3,
-      "fp": 0,
-      "tp": 0
-    },
-    {
-      "doc": "meta.2024.targets.v1.json",
-      "field_accuracy": {
-        "ambition": null,
-        "base_year": null,
-        "horizon": null,
-        "metric_type": null,
-        "reduction_pct": null,
-        "scopes_covered": null,
-        "target_value": null,
-        "target_year": null,
-        "unit": null
-      },
-      "fn": 3,
-      "fp": 0,
-      "tp": 0
     },
     {
       "doc": "tsla.2023.targets.v1.json",

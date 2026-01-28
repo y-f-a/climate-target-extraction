@@ -1,41 +1,15 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (Google)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": 2019,
-      "boundary": "company-wide (operations and value chain)",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Absolute reduction versus 2019 baseline across Scopes 1–3.",
-      "reduction_pct": 50.0,
-      "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "sbti_near_term",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Reduce absolute Scope 1–3 GHG emissions 50% by 2030 vs 2019",
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
       "base_year": null,
-      "boundary": "company-wide (operations and value chain)",
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Company-wide net-zero across Scopes 1–3.",
+      "notes": "Residual emissions are to be neutralized with high-quality carbon removals.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -47,11 +21,37 @@
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Achieve net-zero emissions across operations and value chain by 2030",
+      "title": "Net-zero emissions across operations and value chain by 2030",
       "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": "company-wide",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "At least 50% absolute reduction from a 2019 baseline.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reduce absolute Scope 1, 2, and 3 emissions by at least 50% by 2030 vs 2019 baseline",
+      "unit": "%"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "company": "Apple Inc.",
+  "company": "Apple Inc. (AAPL)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "company-wide (entire value chain)",
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Residual emissions planned to be neutralized via carbon removals to achieve 2030 carbon neutrality.",
+      "notes": "Publicly communicated as part of “Apple 2030” covering product life cycle and supply chain; remaining emissions intended to be addressed with carbon removal/offsetting.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,18 +24,18 @@
       "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce absolute GHG emissions 75% by 2030 vs 2015 (Apple 2030)",
+      "title": "Apple 2030: reduce absolute greenhouse gas emissions 75% by 2030 (vs. 2015 baseline) across full footprint",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
-      "base_year": null,
-      "boundary": "company-wide (entire value chain)",
+      "base_year": 2015,
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero includes balancing residual emissions with high-quality carbon removals.",
+      "notes": "Often described as “carbon neutral for our entire footprint by 2030,” with a plan to cut emissions substantially (e.g., 75%) and use carbon removal for remaining emissions.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -50,7 +50,29 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net-zero (carbon neutral) across value chain by 2030 (Apple 2030)",
+      "title": "Apple 2030: carbon neutral across entire business (full footprint) by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "corporate operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Public claim that corporate operations are carbon neutral starting in 2020; scope coverage details vary by reporting and are not specified here.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Corporate operations carbon neutral (achieved/maintained from 2020)",
       "unit": null
     }
   ]

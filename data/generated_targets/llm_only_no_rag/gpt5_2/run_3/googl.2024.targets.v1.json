@@ -1,15 +1,15 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (Google)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2019,
-      "boundary": null,
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Company-wide target across operations and value chain.",
+      "notes": "Stated as a goal covering operations and value chain.",
       "reduction_pct": 50.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,18 +24,18 @@
       "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce absolute Scope 1, 2, and 3 GHG emissions 50% by 2030 from a 2019 base year",
+      "title": "Reduce absolute GHG emissions 50% by 2030 (vs 2019)",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": null,
+      "boundary": "company-wide",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero to be achieved via emissions reductions and high-quality removals.",
+      "notes": "Net-zero goal described for operations and value chain; residual emissions expected to be neutralized with carbon removals.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -50,29 +50,7 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Achieve net-zero emissions across operations and value chain by 2030",
-      "unit": null
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": null,
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Energy procurement goal; not a direct emissions-reduction target.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2030,
-      "title": "Operate on 24/7 carbon-free energy by 2030",
+      "title": "Net-zero emissions across operations and value chain by 2030",
       "unit": null
     }
   ]

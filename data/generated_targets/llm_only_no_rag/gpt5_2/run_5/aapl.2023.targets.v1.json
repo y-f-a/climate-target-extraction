@@ -1,15 +1,15 @@
 {
-  "company": "Apple Inc.",
+  "company": "Apple Inc. (AAPL)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "entire value chain (business operations, supply chain, and product life cycle)",
+      "boundary": "Company-wide value chain (entire carbon footprint)",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Apple indicates remaining emissions will be neutralized with carbon removals to achieve 2030 carbon neutrality.",
+      "notes": "Part of Apple 2030; intended to cover Apple’s full footprint including supply chain and product life cycle.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,18 +24,18 @@
       "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce absolute GHG emissions 75% by 2030 vs 2015",
+      "title": "Apple 2030: reduce emissions 75% by 2030 (vs 2015 baseline)",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "entire value chain (business operations, supply chain, and product life cycle)",
+      "boundary": "Company-wide value chain (entire carbon footprint)",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Includes neutralization of residual emissions via carbon removals/offsets.",
+      "notes": "Achieve carbon neutrality by 2030, combining large emissions reductions (publicly communicated as 75% vs 2015) with carbon removals/offsets for remaining emissions.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -50,7 +50,32 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon neutrality across entire value chain by 2030",
+      "title": "Apple 2030: carbon neutral across entire footprint by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Corporate operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Apple has publicly stated its corporate operations became carbon neutral in 2020 (using renewable electricity and offsets).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Corporate operations carbon neutral (achieved in 2020)",
       "unit": null
     }
   ]

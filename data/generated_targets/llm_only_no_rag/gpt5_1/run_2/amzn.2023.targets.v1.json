@@ -9,33 +9,29 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "The Climate Pledge commitment to net-zero carbon by 2040 across the business.",
+      "notes": "Amazon has committed to achieve net-zero carbon across its business by 2040 as part of The Climate Pledge; the target is not validated by SBTi.",
       "reduction_pct": null,
       "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
+      "scopes_covered": [],
       "sources": [
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "title": "Net-zero carbon across Amazon\u0019s business by 2040 (The Climate Pledge)",
       "unit": null
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide electricity use",
+      "boundary": "electricity use across Amazon\u0019s operations globally",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Target to match electricity use with 100% renewable energy by 2025.",
+      "notes": "Target to source 100% of electricity for Amazon\u0019s operations from renewable energy by 2025, primarily affecting market-based Scope 2 emissions.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -48,29 +44,7 @@
       "target_type": "non_target_claim",
       "target_value": 100.0,
       "target_year": 2025,
-      "title": "100% renewable energy by 2025",
-      "unit": "%"
-    },
-    {
-      "ambition": "unspecified",
-      "base_value": null,
-      "base_year": null,
-      "boundary": "global shipments",
-      "coverage_pct": null,
-      "horizon": "near_term",
-      "metric_type": "absolute",
-      "notes": "Goal to make 50% of shipments net-zero by 2030.",
-      "reduction_pct": null,
-      "scope3_categories": null,
-      "scopes_covered": [],
-      "sources": [
-        "world_knowledge"
-      ],
-      "status": "unknown",
-      "target_type": "non_target_claim",
-      "target_value": 50.0,
-      "target_year": 2030,
-      "title": "Shipment Zero: 50% of shipments net-zero by 2030",
+      "title": "100% renewable energy for Amazon operations by 2025",
       "unit": "%"
     }
   ]

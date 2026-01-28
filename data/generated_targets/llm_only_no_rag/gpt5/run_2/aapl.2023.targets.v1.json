@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "Company-wide value chain",
+      "boundary": "Company-wide, including direct operations, manufacturing supply chain, and product life cycle",
       "coverage_pct": null,
       "horizon": "near_term",
       "metric_type": "absolute",
-      "notes": "Residual emissions planned to be neutralized with carbon removals to reach 2030 carbon neutrality.",
+      "notes": "Remaining emissions to be neutralized via carbon removal to achieve carbon neutrality by 2030.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,18 +24,18 @@
       "target_type": "sbti_near_term",
       "target_value": null,
       "target_year": 2030,
-      "title": "Reduce absolute GHG emissions 75% by 2030 vs 2015 (all scopes)",
+      "title": "Reduce total GHG emissions 75% by 2030 vs 2015",
       "unit": "%"
     },
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "Company-wide value chain",
+      "boundary": "Company-wide, including direct operations, manufacturing supply chain, and product life cycle",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net emissions to be reduced and remaining residuals removed to claim carbon neutrality by 2030.",
+      "notes": "Carbon neutrality via emissions reductions and carbon removal.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -50,7 +50,7 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon neutral across entire value chain by 2030",
+      "title": "Carbon neutrality across entire value chain by 2030",
       "unit": null
     }
   ]

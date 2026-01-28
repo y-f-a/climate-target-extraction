@@ -1,15 +1,15 @@
 {
-  "company": "Apple Inc.",
+  "company": "Apple Inc. (AAPL)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": 2015,
-      "boundary": "Company-wide value chain (operations, supply chain, and product lifecycle)",
-      "coverage_pct": 100.0,
+      "boundary": "Company-wide (including supply chain and product life cycle)",
+      "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Residual emissions to be neutralized with carbon removal/offsets.",
+      "notes": "Apple has stated it aims to be carbon neutral across its entire carbon footprint by 2030, primarily by reducing emissions ~75% versus 2015 and addressing remaining emissions via carbon removal/offset projects.",
       "reduction_pct": 75.0,
       "scope3_categories": null,
       "scopes_covered": [
@@ -24,8 +24,30 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2030,
-      "title": "Carbon neutral across value chain by 2030 (75% reduction vs 2015)",
+      "title": "Apple 2030: carbon neutral across entire footprint",
       "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Corporate operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Apple has stated its corporate operations have been carbon neutral since 2020 (ongoing claim rather than a disclosed SBTi-validated target).",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Carbon neutral for corporate operations",
+      "unit": null
     }
   ]
 }

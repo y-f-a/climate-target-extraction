@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": "company-wide operations",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "The Climate Pledge commitment; net-zero carbon across its business by 2040.",
+      "notes": "Net-zero carbon commitment under The Climate Pledge; specific baseline year and scope 3 treatment are not publicly presented in SBTi format.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -23,8 +23,32 @@
       "target_type": "sbti_net_zero",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "title": "Net-zero carbon emissions by 2040",
       "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "company-wide electricity consumption for operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Target to source 100% of electricity used in operations from renewable energy by 2025; expressed as an energy mix goal rather than a direct GHG emissions reduction percentage.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable energy for operations by 2025",
+      "unit": "%"
     }
   ]
 }

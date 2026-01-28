@@ -5,11 +5,11 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "Company-wide operations and value chain",
+      "boundary": "Company-wide (operations and value chain)",
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Includes operations and value chain; no quantified reduction trajectory publicly specified.",
+      "notes": "Net-zero by 2030; remaining emissions to be neutralized with carbon removals.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
@@ -25,6 +25,30 @@
       "target_value": null,
       "target_year": 2030,
       "title": "Net-zero emissions across operations and value chain by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global operations electricity use (data centers and offices)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Energy sourcing goal; hour-by-hour carbon-free electricity matching across grids.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Operate on 24/7 carbon-free energy by 2030",
       "unit": null
     }
   ]

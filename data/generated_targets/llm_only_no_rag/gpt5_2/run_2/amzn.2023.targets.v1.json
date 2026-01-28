@@ -9,7 +9,33 @@
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Net-zero carbon across the business by 2040; includes neutralization of residual emissions.",
+      "notes": "Company goal to reach net-zero carbon emissions by 2040 under The Climate Pledge.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2040,
+      "title": "The Climate Pledge: net-zero carbon by 2040",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "shipments",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Program goal for 50% of all shipments to be net-zero carbon by 2030.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [],
@@ -18,10 +44,34 @@
       ],
       "status": "unknown",
       "target_type": "non_target_claim",
-      "target_value": null,
-      "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
-      "unit": null
+      "target_value": 50.0,
+      "target_year": 2030,
+      "title": "Shipment Zero: 50% of shipments net-zero carbon by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "operations",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Goal to match electricity consumption with 100% renewable energy by 2025.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable energy for operations by 2025",
+      "unit": "%"
     }
   ]
 }

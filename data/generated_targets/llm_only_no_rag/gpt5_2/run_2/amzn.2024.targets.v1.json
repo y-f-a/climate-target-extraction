@@ -5,18 +5,14 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": null,
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Commitment under The Climate Pledge to reach net-zero carbon by 2040, including neutralization of residual emissions.",
+      "notes": "Corporate commitment to reach net-zero carbon by 2040 (The Climate Pledge); specific SBTi-style scope coverage and quantified reduction vs a base year not stated here.",
       "reduction_pct": null,
       "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
+      "scopes_covered": [],
       "sources": [
         "world_knowledge"
       ],
@@ -24,7 +20,29 @@
       "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2040,
-      "title": "Net-zero carbon by 2040 (The Climate Pledge)",
+      "title": "The Climate Pledge: net-zero carbon by 2040",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Program goal stated as making 50% of shipments net-zero carbon by 2030; not expressed as a company-wide % emissions reduction versus a base year.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Shipment Zero: net-zero carbon for 50% of shipments by 2030",
       "unit": null
     }
   ]

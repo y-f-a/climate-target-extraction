@@ -1,30 +1,77 @@
 {
-  "company": "Alphabet Inc.",
+  "company": "Alphabet Inc. (Google)",
   "targets": [
     {
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "Company-wide (operations and value chain)",
+      "boundary": "Global data centers and office campuses",
       "coverage_pct": null,
-      "horizon": "net_zero",
-      "metric_type": "absolute",
-      "notes": "Residual emissions to be neutralized with carbon removals.",
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target focuses on achieving 24/7 carbon-free electricity supply for operations by 2030 rather than an explicit GHG reduction percentage.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
+        "S2"
       ],
       "sources": [
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Achieve net-zero GHG emissions across operations and value chain by 2030",
+      "title": "24/7 carbon-free energy for operations by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global operations (data centers and offices)",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Google claims to have maintained carbon-neutral operations every year since 2007 through efficiency, renewable energy procurement, and carbon offsets.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Carbon-neutral operations (Scope 1 and 2) maintained since 2007",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global operations (purchased electricity for data centers and offices)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Since 2017 Google has matched 100% of its annual electricity consumption with purchases of renewable energy for its operations.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S2"
+      ],
+      "sources": [
+        "world_knowledge"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "100% annual renewable electricity matching for operations",
       "unit": null
     }
   ]

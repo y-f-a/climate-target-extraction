@@ -5,18 +5,14 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "company-wide",
+      "boundary": null,
       "coverage_pct": null,
       "horizon": "net_zero",
       "metric_type": "absolute",
-      "notes": "Climate Pledge commitment; neutralize residual emissions at target year.",
+      "notes": "Company-wide net-zero carbon by 2040 commitment via The Climate Pledge, with residual emissions to be neutralized using offsets.",
       "reduction_pct": null,
       "scope3_categories": null,
-      "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
-      ],
+      "scopes_covered": [],
       "sources": [
         "world_knowledge"
       ],

@@ -5,26 +5,24 @@
       "ambition": "unspecified",
       "base_value": null,
       "base_year": null,
-      "boundary": "Operations and value chain (company-wide)",
+      "boundary": "Global Google data centers and office campuses (electricity use)",
       "coverage_pct": null,
-      "horizon": "net_zero",
-      "metric_type": "absolute",
-      "notes": "Includes Scopes 1, 2, and 3; supported by a 24/7 carbon-free energy goal by 2030.",
+      "horizon": "near_term",
+      "metric_type": "intensity",
+      "notes": "Target is to run operations on 24/7 carbon-free electricity by 2030, expressed as energy mix rather than an explicit % GHG reduction.",
       "reduction_pct": null,
       "scope3_categories": null,
       "scopes_covered": [
-        "S1",
-        "S2",
-        "S3"
+        "S2"
       ],
       "sources": [
         "world_knowledge"
       ],
       "status": "unknown",
-      "target_type": "sbti_net_zero",
+      "target_type": "non_target_claim",
       "target_value": null,
       "target_year": 2030,
-      "title": "Net-zero emissions across operations and value chain by 2030",
+      "title": "24/7 carbon-free energy for global data centers and office campuses by 2030",
       "unit": null
     }
   ]

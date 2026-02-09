@@ -1,0 +1,97 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "The Science Based Targets initiative (“SBTi”) has validated the following emissions reduction target for Apple: 61.7 percent by fiscal year 2030 (“FY2030”) relative to our fiscal year 2019 emissions. Our SBTi target excludes less than 3 percent of scope 1 and 2 emissions in the base year, including fire suppressants, refrigerant leakage, purchased or landlord-provided steam and chilled water, and certain greenhouse gases (HFC, PFC, SF6, and NF3), which do not meet Apple’s relevance threshold. In addition, our SBTi target excludes the following scope 3 categories, which collectively are approximately 10 percent of our base year scope 3 emissions: “capital goods” due to limited data availability, which limits our ability to influence these emissions, as well as “fuel and energy related activities” and “waste generated in operations,” as these emissions are negligible.",
+      "reduction_pct": 61.7,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apple-Supply-Chain-2025-Progress-Report.pdf#p56"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Goal 75% reduction in gross emissions by 2030",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple_Environmental_Progress_Report_2025.pdf#p11"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "We plan to reach carbon neutrality beginning with our fiscal year 2030 (FY2030) carbon footprint.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple-Supply-Chain-2025-Progress-Report.pdf#p56"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "corporate emissions",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Apple is carbon neutral for corporate emissions as of April 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple_Environmental_Progress_Report_2025.pdf#p82"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": null,
+      "unit": null
+    }
+  ]
+}

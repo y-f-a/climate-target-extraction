@@ -1,0 +1,149 @@
+{
+  "company": "Microsoft",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2013,
+      "boundary": "The boundary for this carbon neutral goal includes global Scope 1, Scope 2 marketbased, and Scope 3 business air travel emissions.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Microsoft defines carbon neutrality as matching the emissions within the carbon neutrality boundary with an equivalent amount of carbon offsets; starting in FY23, values for Scope 3 business air travel emissions follow management’s criteria as reported under Category 6 – Business Travel with SAFc.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        6
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Carbon neutral every year since fiscal year 2013",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 1975,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Remove from the atmosphere an equivalent amount of all the carbon the company has emitted either directly or by our electricity consumption since being founded in 1975.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8",
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove from the atmosphere an equivalent amount of all the carbon the company has emitted either directly or by our electricity consumption since 1975 by 2050",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Microsoft plans to achieve its carbon negative goal by reducing Scope 3 emissions (market-based and management’s criteria) by more than half.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Reduce Scope 3 emissions (market-based and management’s criteria) by more than half (baseline year 2020)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Reduce Scope 1 and 2 (market-based) emissions to near zero by the middle of the decade.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Reduce Scope 1 and 2 (market-based) emissions to near zero by the middle of the decade",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Reaching 100% renewable energy by 2025.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Reach 100% renewable energy by 2025",
+      "unit": "% renewable energy"
+    }
+  ]
+}

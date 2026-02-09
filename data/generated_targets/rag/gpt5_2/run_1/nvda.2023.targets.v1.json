@@ -1,0 +1,56 @@
+{
+  "company": "NVIDIA",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": 100.0,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "By FY25, and annually thereafter, achieve and maintain 100% renewable electricity for our operations and data centers; commit to procure renewable energy from sources that create additionality when available and commercially reasonable; aim to reduce Scope 1 and 2 emissions in line with a 1.5 degrees Celsius global temperature rise.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "committed",
+      "target_type": "sbti_near_term",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Achieve and maintain 100% renewable electricity for operations and data centers",
+      "unit": "%"
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": 67.0,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "By FY26, engage manufacturing suppliers comprising at least 67% of NVIDIA’s scope 3 category 1 GHG emissions (Purchased Goods and Services), with the goal of effecting supplier adoption of science-based targets aligned with limiting temperature rise to 1.5 degrees Celsius.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1
+      ],
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "committed",
+      "target_type": "sbti_near_term",
+      "target_value": 67.0,
+      "target_year": 2026,
+      "title": "Engage manufacturing suppliers comprising at least 67% of Scope 3 Category 1 emissions to drive science-based targets adoption",
+      "unit": "%"
+    }
+  ]
+}

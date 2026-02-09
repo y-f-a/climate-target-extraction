@@ -1,0 +1,97 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Excludes less than 3 percent of scope 1 and 2 emissions in the base year and excludes scope 3 categories capital goods, fuel and energy related activities, and waste generated in operations; derived from target to reduce emissions by 75 percent by FY2030 relative to 2015.",
+      "reduction_pct": 61.7,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apple-Supply-Chain-2025-Progress-Report.pdf#p56"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Goal relates to gross emissions.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple_Environmental_Progress_Report_2025.pdf#p11"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Goal: 75% reduction in gross emissions by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "We plan to reach carbon neutrality beginning with our fiscal year 2030 (FY2030) carbon footprint.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple-Supply-Chain-2025-Progress-Report.pdf#p56"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon neutrality beginning with FY2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "corporate emissions",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Apple is carbon neutral for corporate emissions as of April 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple_Environmental_Progress_Report_2025.pdf#p82"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Carbon neutral for corporate emissions as of April 2020",
+      "unit": null
+    }
+  ]
+}

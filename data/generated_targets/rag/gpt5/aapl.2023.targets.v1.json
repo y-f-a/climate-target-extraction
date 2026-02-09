@@ -1,0 +1,83 @@
+{
+  "company": "Apple, Inc.",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "full value chain",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Doesn't include any offsets or carbon removals.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": 9.6,
+      "target_year": 2030,
+      "title": null,
+      "unit": "MtCO2"
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "full value chain",
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": 90.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": null,
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "full value chain",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Balance the remaining, unavoidable emissions with high-quality carbon removal credits.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": null
+    }
+  ]
+}

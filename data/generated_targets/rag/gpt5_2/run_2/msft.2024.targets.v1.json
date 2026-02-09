@@ -1,0 +1,71 @@
+{
+  "company": "Microsoft",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Microsoft announced in January 2020 that we aim to be carbon negative by 2030; the baseline year is 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Aim to be carbon negative by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "By 2050 we aim to remove from the atmosphere an equivalent amount of all the carbon dioxide our company has emitted either directly or by our electricity consumption since we were founded in 1975.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove from the atmosphere an equivalent amount of all the carbon dioxide emitted since 1975 by 2050",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "We plan to achieve this commitment by... reaching 100% direct renewable electricity by 2025; the baseline year is 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Reach 100% direct renewable electricity by 2025",
+      "unit": "%"
+    }
+  ]
+}

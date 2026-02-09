@@ -1,0 +1,60 @@
+{
+  "company": "Alphabet Inc. (Google)",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Combined scope 1, 2 (market-based), and 3 emissions reduction ambition validated by SBTi using the Corporate Near-Term Criteria Version 5.2 and cross-sector absolute reduction method; boundary for carbon reduction and net-zero ambitions was adjusted in 2025 to exclude certain scope 3 emissions activities that are peripheral to core operations or where ability to influence emissions reductions is limited.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "google-2025-environmental-report.pdf#p80",
+        "google-2025-environmental-report.pdf#p83",
+        "google-2025-environmental-report.pdf#p118"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "50% absolute reduction in combined Scope 1, 2 (market-based), and 3 emissions by 2030 from 2019 base year",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Ambition to reach net-zero emissions across all operations and value chain by 2030, including plans to invest in carbon removal solutions to neutralize remaining emissions; net-zero ambition allows for 50% remaining emissions by the 2030 ambition date and therefore doesn’t meet SBTi’s long-term net-zero residual emissions criteria.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "google-2025-environmental-report.pdf#p83",
+        "google-2025-environmental-report.pdf#p118"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Net-zero emissions across all operations and value chain by 2030",
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Target does not include any offsets or carbon removals.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": 9.6,
+      "target_year": 2030,
+      "title": "2030 emissions reduction target",
+      "unit": "MtCO2"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": "Compared with fiscal year 2015 footprint.",
+      "reduction_pct": 90.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "2050 emissions reduction target",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "full value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Balance remaining, unavoidable emissions with high-quality carbon removal credits.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Apple 2030 carbon neutral commitment",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "corporate emissions",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apple_Environmental_Progress_Report_2024.pdf#p77"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2020,
+      "title": "Corporate carbon neutrality (as of 2020)",
+      "unit": null
+    }
+  ]
+}

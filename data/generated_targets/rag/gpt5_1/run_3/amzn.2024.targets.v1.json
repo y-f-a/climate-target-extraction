@@ -1,0 +1,27 @@
+{
+  "company": "Amazon",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": 85.7,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "intensity",
+      "notes": "Progress table shows carbon intensity improving from 85.7g CO2e/$GMS in 2022 to 72.6g CO2e/$GMS in 2024.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-sustainability-report-accessible-tables.pdf#p2"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": 72.6,
+      "target_year": 2040,
+      "title": "Reach net-zero carbon emissions across our global operations by 2040",
+      "unit": "g CO2e/$GMS"
+    }
+  ]
+}

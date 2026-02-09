@@ -1,0 +1,80 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "Full value chain (Scopes 1, 2, and 3)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Reduction target does not include any offsets or carbon removals and has been validated by the Science Based Targets Initiative.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": 9.6,
+      "target_year": 2030,
+      "title": "Apple 2030 absolute emissions reduction target",
+      "unit": "MtCO2"
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "Full value chain (Scopes 1, 2, and 3)",
+      "coverage_pct": null,
+      "horizon": "long_term",
+      "metric_type": "absolute",
+      "notes": "Reductions align with global or sector net-zero in 1.5°C-aligned mitigation pathways with low or no overshoot and form part of Apple’s long-term science-based targets.",
+      "reduction_pct": 90.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6",
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p25"
+      ],
+      "status": "approved",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Apple 2050 long-term emissions reduction target",
+      "unit": null
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Full value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Commitment to become carbon neutral for the full value chain by 2030 by first reducing emissions and then balancing remaining unavoidable emissions with high-quality carbon removal credits.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "approved",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Apple 2030 carbon neutrality goal for full value chain",
+      "unit": null
+    }
+  ]
+}

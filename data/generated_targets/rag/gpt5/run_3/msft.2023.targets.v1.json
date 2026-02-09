@@ -1,0 +1,116 @@
+{
+  "company": "Microsoft",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "The boundary for this carbon neutral goal includes global Scope 1, Scope 2 market-based, and Scope 3 business air travel emissions.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Starting in FY23, values for Scope 3 business air travel emissions follow management’s criteria as reported under Category 6 – Business Travel with SAFc.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        6
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "/content/drive/MyDrive/Data/LLM_Climate_Comparison/corporate_data/source/msft/2023/2024-Environmental-Sustainability-Report-Data-Fact.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Carbon neutral every year since fiscal year 2013",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "The baseline year is 2020.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "/content/drive/MyDrive/Data/LLM_Climate_Comparison/corporate_data/source/msft/2023/2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Remove all carbon emitted directly or by electrical consumption since 1975.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "/content/drive/MyDrive/Data/LLM_Climate_Comparison/corporate_data/source/msft/2023/2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8",
+        "/content/drive/MyDrive/Data/LLM_Climate_Comparison/corporate_data/source/msft/2023/2024-Environmental-Sustainability-Report-Data-Fact.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove all historical emissions by 2050",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "/content/drive/MyDrive/Data/LLM_Climate_Comparison/corporate_data/source/msft/2023/2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% renewable energy by 2025",
+      "unit": "% renewable energy"
+    }
+  ]
+}

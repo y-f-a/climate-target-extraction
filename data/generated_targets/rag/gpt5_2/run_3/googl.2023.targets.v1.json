@@ -1,0 +1,79 @@
+{
+  "company": null,
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "across all of our operations and value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Goal to reach net-zero emissions across all of our operations and value chain by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "google-2024-environmental-report.pdf#p32"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Our net-zero goal",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Aim to reduce 50% of combined Scope 1, Scope 2 (market-based), and Scope 3 absolute emissions (compared to 2019 base year) by 2030; committed to SBTi to validate this target.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "google-2024-environmental-report.pdf#p32"
+      ],
+      "status": "committed",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Absolute emissions reduction target",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "largest hardware manufacturing suppliers (by spend)",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Implemented a Google Renewable Energy Addendum asking these suppliers to commit to achieving 100% renewable energy match by 2029.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "google-2024-environmental-report.pdf#p39"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2029,
+      "title": "Supplier renewable electricity match request",
+      "unit": "% renewable energy match"
+    }
+  ]
+}

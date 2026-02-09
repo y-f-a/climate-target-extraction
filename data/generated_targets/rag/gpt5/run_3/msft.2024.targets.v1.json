@@ -1,0 +1,77 @@
+{
+  "company": "Microsoft",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "We aim to be carbon negative by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Reaching 100% direct renewable electricity by 2025.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "100% direct renewable electricity by 2025",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global Scope 1, Scope 2 market-based, and Scope 3 business air travel emissions.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "The boundary for this carbon neutral target includes global Scope 1, Scope 2 market-based, and Scope 3 business air travel emissions; starting in FY23, values for Scope 3 business air travel emissions follow management’s criteria as reported under Category 6 – Business Travel with SAFc.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        6
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Carbon neutral every year since FY13",
+      "unit": null
+    }
+  ]
+}

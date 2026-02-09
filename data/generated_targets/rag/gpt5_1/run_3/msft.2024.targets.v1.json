@@ -1,0 +1,108 @@
+{
+  "company": "Microsoft",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Aim to be carbon negative by 2030 and by 2050 remove from the atmosphere an equivalent amount of all carbon dioxide emitted directly or by electricity consumption since 1975; this carbon inventory reflects what is in scope for the carbon negative commitment.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030 and historical carbon removal by 2050",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Plan to reduce Scope 1 and 2 market-based emissions to near zero by increasing energy efficiency, decarbonizing operations, and reaching 100% direct renewable electricity by 2025.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Scope 1 and 2 market-based emissions to near zero by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Plan to reduce Scope 3 emissions (market-based and management’s criteria) by more than half by 2030 with 2020 as the baseline year.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Scope 3 emissions reduction by more than half by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Global Scope 1, Scope 2 market-based, and Scope 3 business air travel emissions within the carbon neutrality boundary.",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Target to be carbon neutral every year since FY13 by matching emissions within the carbon neutrality boundary with an equivalent amount of carbon credits.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        6
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "2025-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2013,
+      "title": "Carbon neutral every year since FY13",
+      "unit": null
+    }
+  ]
+}

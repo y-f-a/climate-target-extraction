@@ -1,0 +1,57 @@
+{
+  "company": "Apple Inc.",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "Full value chain, including Scopes 1, 2, and 3",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Reduction target excludes offsets and carbon removals and has been validated by SBTi.",
+      "reduction_pct": 75.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": 9.6,
+      "target_year": 2030,
+      "title": "Apple 2030 absolute carbon reduction target",
+      "unit": "MtCO2"
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2015,
+      "boundary": "Full value chain, including Scopes 1, 2, and 3",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Trajectory of reductions aligns with a 1.5°C scenario for Scope 1, 2, and 3 emissions.",
+      "reduction_pct": 90.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "Apples_Carbon_Removal_Strategy_White_Paper.pdf#p6"
+      ],
+      "status": "approved",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Apple 2050 absolute carbon reduction target",
+      "unit": null
+    }
+  ]
+}

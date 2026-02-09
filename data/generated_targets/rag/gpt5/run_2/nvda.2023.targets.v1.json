@@ -1,0 +1,56 @@
+{
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "for our operations and data centers",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "We commit to procure renewable energy from sources that create additionality when available and commercially reasonable.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Scope 1 and 2: 100% renewable electricity by FY25",
+      "unit": "% renewable electricity"
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "manufacturing suppliers",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "With the goal of effecting supplier adoption of science-based targets aligned with limiting temperature rise to 1.5 degrees Celsius.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1
+      ],
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": 67.0,
+      "target_year": 2026,
+      "title": "Scope 3: Engage suppliers covering 67% of Category 1 by FY26",
+      "unit": "% of NVIDIA’s scope 3 category 1 GHG emissions"
+    }
+  ]
+}

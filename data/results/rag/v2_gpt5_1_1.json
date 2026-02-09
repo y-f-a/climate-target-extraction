@@ -1,0 +1,259 @@
+{
+  "aggregate": {
+    "field_acc_macro": {
+      "ambition": 1.0,
+      "base_year": 0.8030303030303031,
+      "horizon": 0.8409090909090909,
+      "metric_type": 0.9090909090909091,
+      "reduction_pct": 0.7272727272727273,
+      "scopes_covered": 0.8257575757575758,
+      "target_value": 0.9545454545454546,
+      "target_year": 0.9393939393939394,
+      "unit": 0.6212121212121212
+    },
+    "hallucination_rate": 0.2608695652173913,
+    "micro_f1": 0.6666666666666666,
+    "micro_precision": 0.7391304347826086,
+    "micro_recall": 0.6071428571428571
+  },
+  "per_doc": [
+    {
+      "doc": "nvda.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.0,
+        "scopes_covered": 0.5,
+        "target_value": 0.5,
+        "target_year": 1.0,
+        "unit": 0.5
+      },
+      "fn": 1,
+      "fp": 1,
+      "tp": 1
+    },
+    {
+      "doc": "nvda.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 0
+    },
+    {
+      "doc": "msft.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.5,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 0.75,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 1,
+      "fp": 1,
+      "tp": 2
+    },
+    {
+      "doc": "msft.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.8333333333333334,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 0.8333333333333334,
+        "target_value": 1.0,
+        "target_year": 0.3333333333333333,
+        "unit": 0.8333333333333334
+      },
+      "fn": 0,
+      "fp": 1,
+      "tp": 3
+    },
+    {
+      "doc": "aapl.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 0.75,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.5
+      },
+      "fn": 1,
+      "fp": 1,
+      "tp": 2
+    },
+    {
+      "doc": "aapl.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.5,
+        "horizon": 0.5,
+        "metric_type": 1.0,
+        "reduction_pct": 0.5,
+        "scopes_covered": 0.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.75
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "googl.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 0.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.0
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "googl.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 0,
+      "fp": 1,
+      "tp": 1
+    },
+    {
+      "doc": "amzn.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 1.0
+      },
+      "fn": 0,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "amzn.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 0.0,
+        "horizon": 1.0,
+        "metric_type": 0.0,
+        "reduction_pct": 0.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.0
+      },
+      "fn": 0,
+      "fp": 1,
+      "tp": 1
+    },
+    {
+      "doc": "meta.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.5
+      },
+      "fn": 2,
+      "fp": 0,
+      "tp": 1
+    },
+    {
+      "doc": "meta.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": 1.0,
+        "base_year": 1.0,
+        "horizon": 1.0,
+        "metric_type": 1.0,
+        "reduction_pct": 1.0,
+        "scopes_covered": 1.0,
+        "target_value": 1.0,
+        "target_year": 1.0,
+        "unit": 0.75
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 2
+    },
+    {
+      "doc": "tsla.2023.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 1,
+      "fp": 0,
+      "tp": 0
+    },
+    {
+      "doc": "tsla.2024.targets.v1.json",
+      "field_accuracy": {
+        "ambition": null,
+        "base_year": null,
+        "horizon": null,
+        "metric_type": null,
+        "reduction_pct": null,
+        "scopes_covered": null,
+        "target_value": null,
+        "target_year": null,
+        "unit": null
+      },
+      "fn": 0,
+      "fp": 0,
+      "tp": 0
+    }
+  ]
+}

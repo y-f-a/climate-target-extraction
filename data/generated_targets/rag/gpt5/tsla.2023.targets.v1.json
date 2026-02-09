@@ -1,0 +1,27 @@
+{
+  "company": "Tesla",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Full product lifecycle from mining and production through use and end-of-life recycling.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "We aim to transition our operational electricity load to 100% renewables well before we achieve our net-zero emissions goal and to continue matching our Supercharger electricity load annually with renewable electricity.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2023-tesla-impact-report-highlights.pdf#p9"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": null,
+      "title": "Tesla Strives to Achieve Net-Zero GHG Emissions",
+      "unit": null
+    }
+  ]
+}

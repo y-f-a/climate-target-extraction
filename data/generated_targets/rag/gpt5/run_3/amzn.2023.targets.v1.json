@@ -1,0 +1,30 @@
+{
+  "company": "Amazon",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "across our operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "10 years ahead of the Paris Agreement.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2023-amazon-sustainability-report.pdf#p9",
+        "2023-amazon-sustainability-report.pdf#p10",
+        "2023-amazon-sustainability-report.pdf#p13",
+        "2023-sustainability-reporting-framework-summary.pdf#p20"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2040,
+      "title": null,
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "company": "Microsoft Corporation",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": "This carbon inventory is what is in scope of our carbon negative commitment.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Microsoft plans to achieve this goal by reducing Scope 3 emissions (market-based and management’s criteria) by more than half; and by reducing Scope 1 and 2 (marketbased) emissions to near zero by the middle of the decade through energy efficiency work and reaching 100% renewable energy by 2025.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "by 2050 we will remove from the atmosphere an equivalent amount of all the carbon the company has emitted either directly or by our electricity consumption since being founded in 1975.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8",
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove all historical direct and electricity emissions by 2050",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "The boundary for this carbon neutral goal includes global Scope 1, Scope 2 marketbased, and Scope 3 business air travel emissions.",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Starting in FY23, values for Scope 3 business air travel emissions follow management’s criteria as reported under Category 6 – Business Travel with SAFc.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        6
+      ],
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p5"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2013,
+      "title": "Carbon neutral every year since fiscal year 2013",
+      "unit": null
+    }
+  ]
+}

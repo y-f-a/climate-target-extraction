@@ -1,0 +1,27 @@
+{
+  "company": null,
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": null,
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-sustainability-report-accessible-tables.pdf#p2"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2040,
+      "title": "Reach net-zero carbon emissions across our global operations by 2040",
+      "unit": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "company": "Amazon",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": 65.1,
+      "base_year": null,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Goal table shows annual absolute emissions progress values for 2022, 2023, and 2024.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-sustainability-report-accessible-tables.pdf#p2"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": 68.25,
+      "target_year": 2040,
+      "title": "Reach net-zero carbon emissions across our global operations by 2040",
+      "unit": "MTCO2e"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": "global operations",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "intensity",
+      "notes": "Carbon intensity reduced approximately 40% since 2019 with reported values of 85.7, 75.6, and 72.6 gCO2e per dollar of gross merchandise sales; progress supports the 2040 net-zero goal.",
+      "reduction_pct": 40.0,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-sustainability-report-accessible-tables.pdf#p2",
+        "2024-amazon-sustainability-report.pdf#p9"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": 72.6,
+      "target_year": 2040,
+      "title": "Reach net-zero carbon emissions across our global operations by 2040 (intensity metric)",
+      "unit": "gCO2e/$GMS"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "company": "Microsoft",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Microsoft announced in January 2020 that we will be carbon negative by 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Carbon negative by 2030",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "By 2050 we will remove from the atmosphere an equivalent amount of all the carbon the company has emitted either directly or by our electricity consumption since being founded in 1975.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2050,
+      "title": "Remove by 2050 an amount equivalent to all carbon emitted since 1975 (directly or by electricity consumption)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Microsoft plans to achieve this goal by reducing Scope 3 emissions (market-based and management’s criteria) by more than half; the baseline year is 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": null,
+      "title": "Reduce Scope 3 emissions (market-based and management’s criteria) by more than half (baseline year 2020)",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Microsoft plans to achieve this goal by reducing Scope 1 and 2 (market-based) emissions to near zero by the middle of the decade; the baseline year is 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": null,
+      "title": "Reduce Scope 1 and 2 (market-based) emissions to near zero by the middle of the decade",
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2020,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Microsoft plans to achieve this goal by reducing Scope 1 and 2 (market-based) emissions to near zero by the middle of the decade through energy efficiency work and reaching 100% renewable energy by 2025; the baseline year is 2020.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "2024-Environmental-Sustainability-Report-Data-Fact.pdf#p8"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Reach 100% renewable energy by 2025",
+      "unit": "% renewable energy"
+    }
+  ]
+}

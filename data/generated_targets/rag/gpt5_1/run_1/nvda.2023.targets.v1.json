@@ -1,0 +1,56 @@
+{
+  "company": "NVIDIA Corporation",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "operations and data centers",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "By FY25 and annually thereafter, achieve and maintain 100% renewable electricity for operations and data centers to reduce Scope 1 and 2 emissions in line with a 1.5 degrees Celsius global temperature rise.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": 100.0,
+      "target_year": 2025,
+      "title": "Scope 1 and 2 renewable electricity goal",
+      "unit": "% renewable electricity"
+    },
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "manufacturing suppliers comprising at least 67% of Scope 3 category 1 emissions",
+      "coverage_pct": 67.0,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "By FY26, engage manufacturing suppliers comprising at least 67% of Scope 3 category 1 Purchased Goods and Services emissions with the goal of supplier adoption of science-based targets aligned with limiting temperature rise to 1.5 degrees Celsius.",
+      "reduction_pct": null,
+      "scope3_categories": [
+        1
+      ],
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "FY2023-NVIDIA-Corporate-Responsibility-Report-1.pdf#p37"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2026,
+      "title": "Scope 3 supplier engagement target",
+      "unit": null
+    }
+  ]
+}

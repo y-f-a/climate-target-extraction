@@ -1,0 +1,80 @@
+{
+  "company": "Meta",
+  "targets": [
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2021,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Goal is to reduce Scope 1 and 2 emissions by 42% in 2031 from a 2021 baseline.",
+      "reduction_pct": 42.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2"
+      ],
+      "sources": [
+        "Meta-2023-Path-to-Net-Zero.pdf#p5",
+        "Meta-2024-Sustainability-Report.pdf#p23",
+        "Meta-2023-Path-to-Net-Zero.pdf#p3"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2031,
+      "title": null,
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": 2021,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Goal is to not exceed 2021 baseline Scope 3 emissions by the end of 2031.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S3"
+      ],
+      "sources": [
+        "Meta-2023-Path-to-Net-Zero.pdf#p5",
+        "Meta-2024-Sustainability-Report.pdf#p23",
+        "Meta-2023-Path-to-Net-Zero.pdf#p3"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2031,
+      "title": null,
+      "unit": null
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": "Value chain",
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Goal to achieve net zero emissions across the value chain in 2030.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "Meta-2024-Sustainability-Report.pdf#p20"
+      ],
+      "status": "unknown",
+      "target_type": "non_target_claim",
+      "target_value": null,
+      "target_year": 2030,
+      "title": null,
+      "unit": null
+    }
+  ]
+}

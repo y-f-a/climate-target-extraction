@@ -6,6 +6,14 @@ Specifically, it is a controlled, quantitative comparison of GPT-5, GPT-5.1, and
 
 ---
 
+## Repo Contents
+
+This repo features 3 Colab notebooks implementing different experiments for GPT-5, GPT-5.1 and GPT-5.2, covering the task of identifying climate emission targets using just LLMs and RAG.
+
+Ground-truth climate targets were created via manual annotation, following SBTi conventions for emissions targets. Primary evaluation is based on F1 score, derived from precision and recall at the field level. Supporting metrics are also reported in the notebook.
+
+---
+
 ## Data
 
 The evaluation uses annual reports and sustainability reports from 7 companies across 2 reporting years, totaling approximately 650 MB of documents.
@@ -18,3 +26,4 @@ To avoid redistribution and licensing issues, I did not include source documents
 
 - Part 1: https://www.reyfarhan.com/posts/climate-targets-01/
 - Part 2: https://www.reyfarhan.com/posts/climate-targets-02/
+- Part 3: https://www.reyfarhan.com/posts/climate-targets-03/

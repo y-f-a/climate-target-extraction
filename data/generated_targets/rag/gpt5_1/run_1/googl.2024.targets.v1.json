@@ -1,0 +1,56 @@
+{
+  "company": "Alphabet Inc.",
+  "targets": [
+    {
+      "ambition": "1.5C",
+      "base_value": null,
+      "base_year": 2019,
+      "boundary": "Ambition-based emissions boundary excluding certain peripheral Scope 3 activities",
+      "coverage_pct": null,
+      "horizon": "near_term",
+      "metric_type": "absolute",
+      "notes": "Target follows the cross-sector absolute reduction method and was validated using the SBTi Corporate Near-Term Criteria Version 5.2.",
+      "reduction_pct": 50.0,
+      "scope3_categories": null,
+      "scopes_covered": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "sources": [
+        "google-2025-environmental-report.pdf#p80",
+        "google-2025-environmental-report.pdf#p83",
+        "google-2025-environmental-report.pdf#p118"
+      ],
+      "status": "approved",
+      "target_type": "sbti_near_term",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reduce absolute combined Scope 1, 2 (market-based), and 3 emissions by 50% from a 2019 base year by 2030",
+      "unit": "%"
+    },
+    {
+      "ambition": "unspecified",
+      "base_value": null,
+      "base_year": null,
+      "boundary": null,
+      "coverage_pct": null,
+      "horizon": "net_zero",
+      "metric_type": "absolute",
+      "notes": "Plan includes investing in carbon removal solutions to neutralize remaining emissions.",
+      "reduction_pct": null,
+      "scope3_categories": null,
+      "scopes_covered": [],
+      "sources": [
+        "google-2025-environmental-report.pdf#p83",
+        "google-2025-environmental-report.pdf#p118"
+      ],
+      "status": "unknown",
+      "target_type": "sbti_net_zero",
+      "target_value": null,
+      "target_year": 2030,
+      "title": "Reach net-zero emissions across all operations and value chain by 2030",
+      "unit": null
+    }
+  ]
+}

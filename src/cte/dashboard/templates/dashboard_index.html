@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="{{ refresh_seconds }}" />
+  <title>CTE Dashboard</title>
+  <style>
+    :root {
+      --bg-1: #f4efe6;
+      --bg-2: #dce6df;
+      --card: #ffffff;
+      --ink: #172322;
+      --muted: #4d6664;
+      --line: #d4ddd9;
+      --accent: #146a58;
+      --warn: #9b5f00;
+      --danger: #932d2d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 12% 8%, #fdf6d7 0%, transparent 30%),
+        radial-gradient(circle at 88% 12%, #d7eee6 0%, transparent 33%),
+        linear-gradient(160deg, var(--bg-1), var(--bg-2));
+      min-height: 100vh;
+      padding: 28px;
+    }
+
+    .panel {
+      background: color-mix(in oklab, var(--card), transparent 4%);
+      border: 1px solid color-mix(in oklab, var(--line), #ffffff 15%);
+      border-radius: 16px;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+      padding: 18px 20px;
+      margin-bottom: 18px;
+    }
+
+    h1, h2 {
+      margin: 0 0 8px;
+      font-family: "IBM Plex Sans", "Space Grotesk", sans-serif;
+      letter-spacing: 0.01em;
+    }
+
+    h1 { font-size: 1.55rem; }
+    h2 { font-size: 1.2rem; margin-bottom: 10px; }
+
+    .meta {
+      font-size: 0.92rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1080px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eef2f0;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #f4f8f6;
+      color: #305653;
+      font-size: 0.83rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    tr[data-href] { cursor: pointer; }
+    tr[data-href]:hover { background: #f7fbf9; }
+
+    .mono { font-family: "IBM Plex Mono", "SFMono-Regular", monospace; }
+    .muted { color: var(--muted); }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 2px 9px;
+      font-size: 0.74rem;
+      letter-spacing: 0.02em;
+      border: 1px solid transparent;
+      margin-right: 6px;
+      white-space: nowrap;
+    }
+
+    .status-running, .status-queued {
+      background: #e4f7ef;
+      border-color: #bde7d7;
+      color: #126449;
+    }
+
+    .status-completed {
+      background: #e8f1ff;
+      border-color: #cddffd;
+      color: #1b4f9d;
+    }
+
+    .status-aborted, .status-invalid_manifest, .status-unknown {
+      background: #fdecec;
+      border-color: #f3c9c9;
+      color: var(--danger);
+    }
+
+    .warning {
+      background: #fff5dc;
+      border-color: #f2ddb0;
+      color: var(--warn);
+    }
+
+    .empty {
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    @media (max-width: 900px) {
+      body { padding: 16px; }
+      .panel { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <section class="panel">
+    <h1>Climate Target Extraction Dashboard</h1>
+    <div class="meta">
+      <span>Runs: <strong>{{ snapshot.total_runs }}</strong></span>
+      <span>Active: <strong>{{ snapshot.active_runs | length }}</strong></span>
+      <span>Active parse-cache jobs: <strong>{{ snapshot.parse_cache_active_runs | length }}</strong></span>
+      <span>Completed/Non-active: <strong>{{ snapshot.completed_runs | length }}</strong></span>
+      <span>Experiments root: <span class="mono">{{ snapshot.experiments_root }}</span></span>
+      <span>Parsed docs root: <span class="mono">{{ snapshot.parsed_docs_root }}</span></span>
+      <span>Generated: <span class="mono">{{ snapshot.generated_at_utc }}</span></span>
+      <span>
+        Baseline map:
+        <span class="mono">{{ snapshot.baseline_mapping_path }}</span>
+        {% if snapshot.baseline_mapping_exists %}
+          <span class="badge status-completed">present</span>
+        {% else %}
+          <span class="badge warning">missing</span>
+        {% endif %}
+      </span>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Active Runs</h2>
+    {% if snapshot.active_runs %}
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Run ID</th>
+              <th>Label</th>
+              <th>Pipeline</th>
+              <th>Pipeline Version</th>
+              <th>Model Generation</th>
+              <th>Started</th>
+              <th>Stage</th>
+              <th>Counter</th>
+              <th>Extract</th>
+              <th>Evaluate</th>
+              <th>Last Update</th>
+              <th>F1</th>
+              <th>Recall</th>
+              <th>Precision</th>
+              <th>Metric Runs</th>
+              <th>Tokens</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for run in snapshot.active_runs %}
+              <tr data-href="{{ url_for('run_detail', run_id=run.run_id) }}">
+                <td>
+                  <span class="badge status-{{ run.run_status }}">{{ run.run_status }}</span>
+                  {% if run.stalled %}<span class="badge warning">stalled</span>{% endif %}
+                  {% if run.metrics_pending %}<span class="badge warning">metrics pending</span>{% endif %}
+                  {% if run.has_warning %}<span class="badge warning">warning</span>{% endif %}
+                </td>
+                <td class="mono"><a href="{{ url_for('run_detail', run_id=run.run_id) }}">{{ run.run_id }}</a></td>
+                <td>{{ run.run_label }}</td>
+                <td>{{ run.pipeline or "-" }}</td>
+                <td>{{ run.pipeline_version or "-" }}</td>
+                <td>{{ run.model_generation or "-" }}</td>
+                <td class="mono">{{ run.started_at_utc or "-" }}</td>
+                <td>{{ run.live_stage or "-" }}</td>
+                <td>
+                  {% if run.live_run_counter_current is not none and run.live_run_counter_total is not none %}
+                    {{ run.live_run_counter_current }}/{{ run.live_run_counter_total }}
+                  {% else %}
+                    -
+                  {% endif %}
+                </td>
+                <td>
+                  {% if run.live_extract_completed is not none and run.live_extract_total is not none %}
+                    {{ run.live_extract_completed }}/{{ run.live_extract_total }}
+                  {% else %}
+                    -
+                  {% endif %}
+                </td>
+                <td>
+                  {% if run.live_evaluate_completed is not none and run.live_evaluate_total is not none %}
+                    {{ run.live_evaluate_completed }}/{{ run.live_evaluate_total }}
+                  {% else %}
+                    -
+                  {% endif %}
+                </td>
+                <td class="mono">{{ run.live_updated_at_utc or "-" }}</td>
+                <td>{{ run.f1_display }}</td>
+                <td>{{ run.recall_display }}</td>
+                <td>{{ run.precision_display }}</td>
+                <td>{{ run.metric_runs_display }}</td>
+                <td>{{ run.tokens_display }}</td>
+                <td>{{ run.cost_display }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="empty">No active runs detected.</div>
+    {% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Active Parse-Cache Jobs</h2>
+    {% if snapshot.parse_cache_active_runs %}
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Run ID</th>
+              <th>Mode</th>
+              <th>Progress</th>
+              <th>Hits</th>
+              <th>Planned New</th>
+              <th>Parsed</th>
+              <th>Failed</th>
+              <th>Current Source</th>
+              <th>Last Update</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for job in snapshot.parse_cache_active_runs %}
+              <tr>
+                <td>
+                  <span class="badge status-{{ job.status }}">{{ job.status }}</span>
+                  {% if job.stalled %}<span class="badge warning">stalled</span>{% endif %}
+                </td>
+                <td class="mono">{{ job.run_id }}</td>
+                <td>{{ job.mode or "-" }}</td>
+                <td>
+                  {% if job.processed is not none and job.total is not none %}
+                    {{ job.processed }}/{{ job.total }}
+                  {% else %}
+                    -
+                  {% endif %}
+                </td>
+                <td>{{ job.hits }}</td>
+                <td>{{ job.planned_new }}</td>
+                <td>{{ job.parsed }}</td>
+                <td>{{ job.failed }}</td>
+                <td class="mono">{{ job.current_source_relative_path or "-" }}</td>
+                <td class="mono">{{ job.updated_at_utc or "-" }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="empty">No active parse-cache jobs detected.</div>
+    {% endif %}
+  </section>
+
+  <section class="panel">
+    <h2>Completed Runs</h2>
+    {% if snapshot.completed_runs %}
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Run ID</th>
+              <th>Label</th>
+              <th>Pipeline</th>
+              <th>Pipeline Version</th>
+              <th>Model Generation</th>
+              <th>Started</th>
+              <th>F1</th>
+              <th>Recall</th>
+              <th>Precision</th>
+              <th>Metric Runs</th>
+              <th>Tokens</th>
+              <th>Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for run in snapshot.completed_runs %}
+              <tr data-href="{{ url_for('run_detail', run_id=run.run_id) }}">
+                <td>
+                  <span class="badge status-{{ run.run_status }}">{{ run.run_status }}</span>
+                  {% if run.has_warning %}<span class="badge warning">warning</span>{% endif %}
+                </td>
+                <td class="mono"><a href="{{ url_for('run_detail', run_id=run.run_id) }}">{{ run.run_id }}</a></td>
+                <td>{{ run.run_label }}</td>
+                <td>{{ run.pipeline or "-" }}</td>
+                <td>{{ run.pipeline_version or "-" }}</td>
+                <td>{{ run.model_generation or "-" }}</td>
+                <td class="mono">{{ run.started_at_utc or "-" }}</td>
+                <td>{{ run.f1_display }}</td>
+                <td>{{ run.recall_display }}</td>
+                <td>{{ run.precision_display }}</td>
+                <td>{{ run.metric_runs_display }}</td>
+                <td>{{ run.tokens_display }}</td>
+                <td>{{ run.cost_display }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="empty">No completed runs found.</div>
+    {% endif %}
+  </section>
+
+  <script>
+    for (const row of document.querySelectorAll("tr[data-href]")) {
+      row.addEventListener("click", (event) => {
+        if (event.target.closest("a")) return;
+        window.location.assign(row.dataset.href);
+      });
+    }
+  </script>
+</body>
+</html>

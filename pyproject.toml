@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.24.2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "climate-target-extraction"
+version = "0.1.0"
+description = "Parity-first RAG/no-RAG climate target extraction experimentation toolkit"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "openai>=1.55.0",
+  "pydantic>=2.10.0",
+  "numpy>=1.26.0",
+  "fastapi>=0.110.0",
+  "uvicorn>=0.30.0",
+  "jinja2>=3.1.0",
+]
+
+[project.optional-dependencies]
+rag = [
+  "llama-index>=0.12.0",
+  "llama-index-retrievers-bm25>=0.4.0",
+  "llama-parse>=0.6.0",
+  "pymupdf4llm>=0.0.17",
+]
+dev = [
+  "pytest>=8.3.0",
+]
+rerank = [
+  "torch>=2.4.0",
+  "sentence-transformers>=3.0.0",
+]
+
+[project.scripts]
+cte = "cte.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cte"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

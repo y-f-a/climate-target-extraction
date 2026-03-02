@@ -1,0 +1,49 @@
+[run]
+pipeline = "rag"
+pipeline_version = "rag.v1"
+model_alias = "gpt5_2"
+model_name = "gpt-5.2-2025-12-11"
+judge_model_name = "gpt-5-mini-2025-08-07"
+years = ["2023", "2024"]
+company_tickers = ["NVDA", "MSFT", "AAPL", "GOOGL", "AMZN", "META", "TSLA"]
+run_count = 2
+index_policy = "reuse_or_build"
+parent_run_id = ""
+changed_components = []
+change_reason = ""
+baseline_run_id = ""
+
+[prompts]
+extract_version = "v001"
+eval_version = "v001"
+
+[versions]
+pdf_conversion = "v1"
+node_splitting = "v1"
+indexing = "v1"
+retrieval = "v1"
+evaluator = "v1"
+
+[paths]
+artifacts_root = "artifacts"
+reference_targets_dir = "data/evaluation_set/reference_targets"
+source_docs_root_env = "CTE_SOURCE_DOCS_DIR"
+env_file = ".env.local"
+
+[settings]
+embedding_model = "text-embedding-3-large"
+chunk_size = 8192
+chunk_overlap = 512
+similarity_top_k = 10
+fusion_top_k = 5
+max_tokens = 16390
+temperature = 0.0
+
+[company_info]
+NVDA = "NVIDIA Corporation"
+MSFT = "Microsoft Corporation"
+AAPL = "Apple Inc"
+GOOGL = "Alphabet Inc"
+AMZN = "Amazon.com Inc"
+META = "Meta Platforms Inc"
+TSLA = "Tesla Inc"

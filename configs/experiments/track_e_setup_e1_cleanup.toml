@@ -1,0 +1,63 @@
+[run]
+pipeline = "rag"
+pipeline_version = "rag.v1"
+model_alias = "gpt5_2"
+model_name = "gpt-5.2-2025-12-11"
+judge_model_name = "gpt-5-mini-2025-08-07"
+years = ["2023", "2024"]
+company_tickers = ["NVDA", "MSFT", "AAPL", "GOOGL", "AMZN", "META", "TSLA"]
+run_count = 2
+index_policy = "reuse_or_build"
+parent_run_id = "20260221T134430Z-parity_rag_v1_baseline_retry1-af7f13bb"
+changed_components = ["pdf_cleanup_parse_cache"]
+change_reason = "Track E / Setup E1: conservative parse-cache cleanup for hard docs using LLM faithful page cleanup (image + text) with strict guardrails and fail-open behavior."
+baseline_run_id = "20260221T134430Z-parity_rag_v1_baseline_retry1-af7f13bb"
+
+[prompts]
+extract_version = "v001"
+eval_version = "v001"
+
+[versions]
+pdf_conversion = "v2_cleanup_llm_faithful_v1"
+node_splitting = "v1"
+indexing = "v1"
+retrieval = "v1"
+evaluator = "v1"
+
+[paths]
+artifacts_root = "artifacts"
+parsed_docs_root = "artifacts/parsed_docs"
+reference_targets_dir = "data/evaluation_set/reference_targets"
+source_docs_root_env = "CTE_SOURCE_DOCS_DIR"
+env_file = ".env.local"
+
+[settings]
+embedding_model = "text-embedding-3-large"
+chunk_size = 8192
+chunk_overlap = 512
+similarity_top_k = 10
+fusion_top_k = 5
+max_tokens = 16390
+temperature = 0.0
+
+pdf_source_mode = "cache_only"
+pdf_parse_provider = "llamaparse"
+pdf_cleanup_mode = "llm_faithful_v1"
+pdf_cleanup_model = "gpt-5-mini-2025-08-07"
+pdf_cleanup_max_pages_per_pdf = 3
+pdf_cleanup_score_threshold = 3
+pdf_cleanup_enabled_doc_pairs = ["tsla:2023", "nvda:2024", "aapl:2024"]
+pdf_cleanup_low_text_rescue = true
+pdf_cleanup_low_text_max_chars = 60
+pdf_cleanup_image_dpi = 200
+pdf_cleanup_timeout_sec = 90
+pdf_cleanup_profile_version = "v1"
+
+[company_info]
+NVDA = "NVIDIA Corporation"
+MSFT = "Microsoft Corporation"
+AAPL = "Apple Inc"
+GOOGL = "Alphabet Inc"
+AMZN = "Amazon.com Inc"
+META = "Meta Platforms Inc"
+TSLA = "Tesla Inc"

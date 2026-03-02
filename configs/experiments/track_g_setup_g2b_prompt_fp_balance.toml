@@ -1,0 +1,68 @@
+[run]
+pipeline = "rag"
+pipeline_version = "rag.v1"
+model_alias = "gpt5_2"
+model_name = "gpt-5.2-2025-12-11"
+judge_model_name = "gpt-5-mini-2025-08-07"
+years = ["2023", "2024"]
+company_tickers = ["NVDA", "MSFT", "AAPL", "GOOGL", "AMZN", "META", "TSLA"]
+run_count = 2
+index_policy = "reuse_or_build"
+parent_run_id = "20260223T112135Z-track_e_setup_e2d_pymupdf_cleanup_numeric_off_quality-f9cf8551"
+changed_components = ["extract_prompt"]
+change_reason = "Track G / Setup G2b: prompt-only FP balance update (retain qualitative emissions targets; exclude procurement/supplier-only claims)."
+baseline_run_id = "20260223T112135Z-track_e_setup_e2d_pymupdf_cleanup_numeric_off_quality-f9cf8551"
+target_postprocess_profile = "off"
+
+[prompts]
+extract_version = "v004"
+eval_version = "v001"
+
+[versions]
+pdf_conversion = "v3_pymupdf_cleanup_cache_v1"
+node_splitting = "v1"
+indexing = "v1"
+retrieval = "v1"
+evaluator = "v1"
+
+[paths]
+artifacts_root = "artifacts"
+parsed_docs_root = "artifacts/parsed_docs"
+reference_targets_dir = "data/evaluation_set/reference_targets"
+source_docs_root_env = "CTE_SOURCE_DOCS_DIR"
+env_file = ".env.local"
+
+[settings]
+embedding_model = "text-embedding-3-large"
+chunk_size = 8192
+chunk_overlap = 512
+similarity_top_k = 10
+fusion_top_k = 5
+max_tokens = 16390
+temperature = 0.0
+
+pdf_source_mode = "local_parser"
+pdf_cleanup_mode = "llm_faithful_v1"
+pdf_cleanup_model = "gpt-5-mini-2025-08-07"
+pdf_cleanup_doc_scope = "all"
+pdf_cleanup_max_pages_per_pdf = 8
+pdf_cleanup_use_score_threshold = false
+pdf_cleanup_score_threshold = 3
+pdf_cleanup_extra_keywords = []
+pdf_cleanup_length_ratio_max = 10.0
+pdf_cleanup_low_text_rescue = true
+pdf_cleanup_low_text_max_chars = 60
+pdf_cleanup_image_dpi = 200
+pdf_cleanup_timeout_sec = 90
+pdf_cleanup_profile_version = "v1"
+pdf_cleanup_numeric_guardrail_enabled = false
+pdf_cleanup_page_cache_miss_policy = "call_llm"
+
+[company_info]
+NVDA = "NVIDIA Corporation"
+MSFT = "Microsoft Corporation"
+AAPL = "Apple Inc"
+GOOGL = "Alphabet Inc"
+AMZN = "Amazon.com Inc"
+META = "Meta Platforms Inc"
+TSLA = "Tesla Inc"

@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% if run.is_active %}
+  <meta http-equiv="refresh" content="{{ refresh_seconds }}" />
+  {% endif %}
+  <title>{{ run.run_id }} - CTE Dashboard</title>
+  <style>
+    :root {
+      --bg: #f2f6f2;
+      --card: #ffffff;
+      --ink: #122022;
+      --muted: #4f6468;
+      --line: #d6dfdf;
+      --accent: #1f7b65;
+      --warn: #995f00;
+      --danger: #992d2d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 8% 14%, #fcefc9 0%, transparent 30%),
+        radial-gradient(circle at 94% 8%, #daf0e7 0%, transparent 32%),
+        linear-gradient(150deg, #f6f3ea, var(--bg));
+      color: var(--ink);
+      font-family: "Space Grotesk", "IBM Plex Sans", "Segoe UI", sans-serif;
+      padding: 24px;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      gap: 14px;
+    }
+
+    .card {
+      background: color-mix(in oklab, var(--card), transparent 4%);
+      border: 1px solid color-mix(in oklab, var(--line), white 18%);
+      border-radius: 14px;
+      box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+      padding: 16px 18px;
+    }
+
+    h1, h2 {
+      margin: 0 0 8px;
+      font-family: "IBM Plex Sans", "Space Grotesk", sans-serif;
+    }
+
+    h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.08rem; }
+
+    .mono { font-family: "IBM Plex Mono", "SFMono-Regular", monospace; }
+    .muted { color: var(--muted); }
+
+    .grid {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .kv {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 8px 10px;
+      background: #fff;
+    }
+
+    .k {
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 3px;
+    }
+
+    .v { font-size: 0.95rem; }
+
+    .badge {
+      display: inline-flex;
+      border-radius: 999px;
+      padding: 2px 9px;
+      font-size: 0.74rem;
+      margin-right: 6px;
+      border: 1px solid transparent;
+    }
+
+    .status-running, .status-queued {
+      background: #e4f7ef;
+      border-color: #bde7d7;
+      color: #126449;
+    }
+
+    .status-completed {
+      background: #e8f1ff;
+      border-color: #cddffd;
+      color: #1b4f9d;
+    }
+
+    .status-aborted, .status-invalid_manifest, .status-unknown {
+      background: #fdecec;
+      border-color: #f3c9c9;
+      color: var(--danger);
+    }
+
+    .warning {
+      background: #fff5dc;
+      border-color: #f2ddb0;
+      color: var(--warn);
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eef2f0;
+      text-align: left;
+      vertical-align: middle;
+      font-size: 0.92rem;
+    }
+
+    th {
+      background: #f4f8f6;
+      color: #305653;
+      font-size: 0.83rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .row-toggle {
+      border: 0;
+      background: transparent;
+      color: var(--accent);
+      cursor: pointer;
+      font: inherit;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .row-toggle:hover { text-decoration: underline; }
+
+    .arrow {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 7px solid color-mix(in oklab, var(--accent), black 8%);
+      transition: transform 0.15s ease-in-out;
+    }
+
+    .row-toggle[aria-expanded="true"] .arrow {
+      transform: rotate(90deg);
+    }
+
+    .detail-row {
+      background: #f9fbfa;
+    }
+
+    .detail-cell {
+      padding: 12px 14px;
+      border-bottom: 1px solid #eef2f0;
+    }
+
+    .detail-block + .detail-block {
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid #e5edeb;
+    }
+
+    .detail-block h3 {
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+      color: #305653;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .detail-table {
+      min-width: 700px;
+    }
+
+    .detail-empty {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .chunk-text {
+      margin: 8px 0 0;
+      white-space: pre-wrap;
+      max-height: 260px;
+      overflow-y: auto;
+      border: 1px solid #dbe7e4;
+      border-radius: 8px;
+      background: #f7fbfa;
+      padding: 8px;
+      font-size: 0.86rem;
+      line-height: 1.35;
+    }
+
+    .chunk-summary {
+      cursor: pointer;
+      color: #254c49;
+    }
+
+    .is-hidden {
+      display: none;
+    }
+
+    ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+
+    li { margin-bottom: 6px; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <div><a href="{{ url_for('dashboard_index') }}">&larr; Back to dashboard</a></div>
+      <h1>{{ run.run_label }}</h1>
+      <div class="muted mono">{{ run.run_id }}</div>
+      <div style="margin-top: 10px;">
+        <span class="badge status-{{ run.run_status }}">{{ run.run_status }}</span>
+        {% if run.stalled %}<span class="badge warning">stalled</span>{% endif %}
+        {% if run.metrics_pending %}<span class="badge warning">metrics pending</span>{% endif %}
+        {% if run.has_warning %}<span class="badge warning">warnings</span>{% endif %}
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Identity</h2>
+      <div class="grid">
+        <div class="kv"><div class="k">Run ID</div><div class="v mono">{{ run.run_id }}</div></div>
+        <div class="kv"><div class="k">Label</div><div class="v">{{ run.run_label }}</div></div>
+        <div class="kv"><div class="k">Pipeline</div><div class="v">{{ run.pipeline or "-" }}</div></div>
+        <div class="kv"><div class="k">Pipeline Version</div><div class="v">{{ run.pipeline_version or "-" }}</div></div>
+        <div class="kv"><div class="k">Model</div><div class="v">{{ run.model_generation or "-" }}</div></div>
+        <div class="kv"><div class="k">Judge Model</div><div class="v">{{ run.judge_model_name or "-" }}</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Timing</h2>
+      <div class="grid">
+        <div class="kv"><div class="k">Started</div><div class="v mono">{{ run.started_at_utc or "-" }}</div></div>
+        <div class="kv"><div class="k">Finished</div><div class="v mono">{{ run.finished_at_utc or "-" }}</div></div>
+        <div class="kv"><div class="k">Timestamp</div><div class="v mono">{{ run.timestamp_utc or "-" }}</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Live Progress</h2>
+      <div class="grid">
+        <div class="kv"><div class="k">Stage</div><div class="v">{{ run.live_stage or "-" }}</div></div>
+        <div class="kv">
+          <div class="k">Run Counter</div>
+          <div class="v">
+            {% if run.live_run_counter_current is not none and run.live_run_counter_total is not none %}
+              {{ run.live_run_counter_current }}/{{ run.live_run_counter_total }}
+            {% else %}
+              -
+            {% endif %}
+          </div>
+        </div>
+        <div class="kv">
+          <div class="k">Extract Progress</div>
+          <div class="v">
+            {% if run.live_extract_completed is not none and run.live_extract_total is not none %}
+              {{ run.live_extract_completed }}/{{ run.live_extract_total }}
+            {% else %}
+              -
+            {% endif %}
+          </div>
+        </div>
+        <div class="kv">
+          <div class="k">Extract Current Doc</div>
+          <div class="v mono">{{ run.live_extract_current_doc_name or "-" }}</div>
+        </div>
+        <div class="kv">
+          <div class="k">Evaluate Progress</div>
+          <div class="v">
+            {% if run.live_evaluate_completed is not none and run.live_evaluate_total is not none %}
+              {{ run.live_evaluate_completed }}/{{ run.live_evaluate_total }}
+            {% else %}
+              -
+            {% endif %}
+          </div>
+        </div>
+        <div class="kv">
+          <div class="k">Evaluate Current Doc</div>
+          <div class="v mono">{{ run.live_evaluate_current_doc_name or "-" }}</div>
+        </div>
+        <div class="kv"><div class="k">Last Update</div><div class="v mono">{{ run.live_updated_at_utc or "-" }}</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Metrics</h2>
+      <div class="grid">
+        <div class="kv"><div class="k">F1</div><div class="v">{{ run.f1_display }}</div></div>
+        <div class="kv"><div class="k">Recall</div><div class="v">{{ run.recall_display }}</div></div>
+        <div class="kv"><div class="k">Precision</div><div class="v">{{ run.precision_display }}</div></div>
+        <div class="kv"><div class="k">Metric Runs</div><div class="v">{{ run.metric_runs_display }}</div></div>
+        <div class="kv"><div class="k">Tokens</div><div class="v">{{ run.tokens_display }}</div></div>
+        <div class="kv"><div class="k">Cost</div><div class="v">{{ run.cost_display }}</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Diagnostics Source</h2>
+      <div class="grid">
+        <div class="kv">
+          <div class="k">Selected Report</div>
+          <div class="v">
+            {% if run.diagnostics_source_report_path and run.diagnostics_source_report_link %}
+              <a class="mono" href="{{ url_for('artifact_file') }}?path={{ run.diagnostics_source_report_link | urlencode }}">{{ run.diagnostics_source_report_path }}</a>
+            {% else %}
+              <span class="mono">{{ run.diagnostics_source_report_path or "-" }}</span>
+            {% endif %}
+          </div>
+        </div>
+        <div class="kv">
+          <div class="k">Run Counter</div>
+          <div class="v">{{ run.diagnostics_source_counter_display }}</div>
+        </div>
+      </div>
+      {% if run.diagnostics_warnings %}
+        <ul>
+          {% for warning in run.diagnostics_warnings %}
+            <li>{{ warning }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </section>
+
+    <section class="card">
+      <h2>Company-Year Diagnostics</h2>
+      {% if run.company_year_rows %}
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Company-Year</th>
+                <th>Recall</th>
+                <th>Precision</th>
+                <th>F1</th>
+                <th>TP</th>
+                <th>FP</th>
+                <th>FN</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in run.company_year_rows %}
+                {% set company_detail_row_id = "company-year-detail-" ~ loop.index %}
+                <tr>
+                  <td class="mono">
+                    <button class="row-toggle mono" type="button" data-expand-target="{{ company_detail_row_id }}" aria-expanded="false">
+                      <span class="arrow" aria-hidden="true"></span>
+                      {{ row.company_year }}
+                    </button>
+                  </td>
+                  <td>{{ row.recall_display }}</td>
+                  <td>{{ row.precision_display }}</td>
+                  <td>{{ row.f1_display }}</td>
+                  <td>{{ row.tp }}</td>
+                  <td>{{ row.fp }}</td>
+                  <td>{{ row.fn }}</td>
+                </tr>
+                <tr id="{{ company_detail_row_id }}" class="detail-row is-hidden">
+                  <td colspan="7" class="detail-cell">
+                    <div class="detail-block">
+                      <h3>Source PDF Mapping</h3>
+                      {% if row.source_pdf_mapping_note %}
+                        <div class="detail-empty">{{ row.source_pdf_mapping_note }}</div>
+                      {% endif %}
+                      {% if row.source_pdf_warnings %}
+                        <ul>
+                          {% for warning in row.source_pdf_warnings %}
+                            <li>{{ warning }}</li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                      {% if row.source_pdf_rows %}
+                        <div class="table-wrap">
+                          <table class="detail-table">
+                            <thead>
+                              <tr>
+                                <th>Source PDF</th>
+                                <th>Cited</th>
+                                <th>Citation Count</th>
+                                <th>Pages</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {% for source_pdf in row.source_pdf_rows %}
+                                <tr>
+                                  <td class="mono">
+                                    {% if source_pdf.source_link %}
+                                      <a href="{{ url_for('artifact_file') }}?path={{ source_pdf.source_link | urlencode }}">{{ source_pdf.filename }}</a>
+                                    {% else %}
+                                      <span title="{{ source_pdf.source_path or source_pdf.filename }}">{{ source_pdf.filename }}</span>
+                                    {% endif %}
+                                  </td>
+                                  <td>{{ source_pdf.cited_display }}</td>
+                                  <td>{{ source_pdf.citation_count }}</td>
+                                  <td>{{ source_pdf.pages_display }}</td>
+                                </tr>
+                              {% endfor %}
+                            </tbody>
+                          </table>
+                        </div>
+                      {% else %}
+                        <div class="detail-empty">No source PDF rows available for this company-year.</div>
+                      {% endif %}
+                    </div>
+                    <div class="detail-block">
+                      <h3>Retrieved Chunks ({{ row.retrieved_chunk_count }})</h3>
+                      {% if row.retrieved_chunk_mapping_note %}
+                        <div class="detail-empty">{{ row.retrieved_chunk_mapping_note }}</div>
+                      {% endif %}
+                      {% if row.retrieved_chunk_warnings %}
+                        <ul>
+                          {% for warning in row.retrieved_chunk_warnings %}
+                            <li>{{ warning }}</li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                      {% if row.retrieved_chunk_rows %}
+                        <div class="table-wrap">
+                          <table class="detail-table">
+                            <thead>
+                              <tr>
+                                <th>Evaluation Item</th>
+                                <th>Rank</th>
+                                <th>Score</th>
+                                <th>Source</th>
+                                <th>Page</th>
+                                <th>Chunk Text</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {% for chunk in row.retrieved_chunk_rows %}
+                                <tr>
+                                  <td class="mono">{{ chunk.evaluation_item_id }}</td>
+                                  <td>{{ chunk.rank if chunk.rank is not none else "-" }}</td>
+                                  <td>{{ chunk.score_display }}</td>
+                                  <td class="mono">
+                                    {{ chunk.file_name or "-" }}
+                                    {% if chunk.source_relative_path %}
+                                      <div class="muted">{{ chunk.source_relative_path }}</div>
+                                    {% endif %}
+                                  </td>
+                                  <td>{{ chunk.page_display }}</td>
+                                  <td>
+                                    {% if chunk.text %}
+                                      <details>
+                                        <summary class="chunk-summary">{{ chunk.text_preview }}</summary>
+                                        <pre class="chunk-text">{{ chunk.text }}</pre>
+                                      </details>
+                                    {% else %}
+                                      -
+                                    {% endif %}
+                                  </td>
+                                </tr>
+                              {% endfor %}
+                            </tbody>
+                          </table>
+                        </div>
+                      {% elif not row.retrieved_chunk_mapping_note %}
+                        <div class="detail-empty">No retrieved chunks available for this company-year.</div>
+                      {% endif %}
+                    </div>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <div class="empty">No company-year diagnostics available for this run.</div>
+      {% endif %}
+    </section>
+
+    <section class="card">
+      <h2>Field Summary Diagnostics</h2>
+      {% if run.field_summary_rows %}
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Field</th>
+                <th>Accuracy</th>
+                <th>Company-Years With Score</th>
+                <th>Missing Count</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in run.field_summary_rows %}
+                <tr>
+                  <td class="mono">{{ row.field }}</td>
+                  <td>{{ row.accuracy_display }}</td>
+                  <td>{{ row.company_years_with_score }}</td>
+                  <td>{{ row.missing_count }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <div class="empty">No field summary diagnostics available for this run.</div>
+      {% endif %}
+    </section>
+
+    <section class="card">
+      <h2>Artifacts</h2>
+      <ul>
+        <li>
+          <strong>Manifest:</strong>
+          {% if run.manifest_link.exists %}
+            <a class="mono" href="{{ url_for('artifact_file') }}?path={{ run.manifest_link.link_path | urlencode }}">{{ run.manifest_link.display_path }}</a>
+          {% else %}
+            <span class="mono">{{ run.manifest_link.display_path }}</span>
+            <span class="badge warning">missing</span>
+          {% endif %}
+        </li>
+        {% if run.report_links %}
+          {% for link in run.report_links %}
+            <li>
+              <strong>{{ link.label }}:</strong>
+              {% if link.exists %}
+                <a class="mono" href="{{ url_for('artifact_file') }}?path={{ link.link_path | urlencode }}">{{ link.display_path }}</a>
+              {% else %}
+                <span class="mono">{{ link.display_path }}</span>
+                <span class="badge warning">missing</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        {% else %}
+          <li class="muted">No report paths found in manifest.</li>
+        {% endif %}
+      </ul>
+    </section>
+
+    {% if run.warnings %}
+      <section class="card">
+        <h2>Warnings</h2>
+        <ul>
+          {% for warning in run.warnings %}
+            <li>{{ warning }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </main>
+  <script>
+    for (const button of document.querySelectorAll("button[data-expand-target]")) {
+      button.addEventListener("click", () => {
+        const targetId = button.dataset.expandTarget;
+        if (!targetId) return;
+        const row = document.getElementById(targetId);
+        if (!row) return;
+        const nowHidden = row.classList.toggle("is-hidden");
+        button.setAttribute("aria-expanded", nowHidden ? "false" : "true");
+      });
+    }
+  </script>
+</body>
+</html>
